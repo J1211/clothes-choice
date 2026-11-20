@@ -83,7 +83,7 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
                 if isinstance(data, dict):
                     keys = list(data.keys())[:6]
                     parsed_info = f"JSON keys={keys}"
-                    # 尝试抓取 Shopify 样式产品统计
+                    # 解析 Shopify 样式产品统计
                     if "products" in data and isinstance(data["products"], list):
                         prods = data["products"]
                         vendors = {}
@@ -202,7 +202,7 @@ def probe_vision_models(img_b64: str) -> list[dict]:
                         {
                             "type": "text",
                             "text": (
-                                "请看这张商品图，假设这是一款售价899元、鞋面为麂皮与网眼拼接的男鞋。"
+                                "请看这张商品图，假设这是一款售价899元、材质/做工扎实的男装或男鞋单品。"
                                 "请用严格的JSON格式返回：{\"color_style\": \"简短配色风格\", \"score\": 8.5}"
                             ),
                         },
@@ -273,6 +273,7 @@ def main():
     log(f"[上海天气] {weather}")
 
     brand_checks = [
+        # 服装品牌（5家：Uniqlo / Zara / Massimo Dutti / COS / UR）
         test_uniqlo_cn(),
         test_http_get("Zara CN (类目JSON)", "https://www.zara.cn/cn/zh/categories?ajax=true"),
         test_http_get("Zara HK (备选JSON)", "https://www.zara.com/hk/zh/categories?ajax=true"),
@@ -280,6 +281,11 @@ def main():
         test_http_get("Massimo Dutti HK (备选JSON)", "https://www.massimodutti.com/hk/zh/categories?ajax=true"),
         test_http_get("COS CN (首页连通)", "https://www.cos.cn/", is_json=False),
         test_http_get("COS HK (男装页)", "https://www.cos.com/en-hk/men/view-all.html", is_json=False),
+        test_http_get("UR CN (官网连通)", "https://www.ur.cn/", is_json=False),
+        test_http_get("UR Global (全站JSON)", "https://global.urbanrevivo.com/products.json?limit=25"),
+        test_http_get("UR Global (男装JSON)", "https://global.urbanrevivo.com/collections/men/products.json?limit=25"),
+
+        # 鞋履品牌（4家：Nike / Adidas / New Balance / Salomon + 买手店兜底）
         test_http_get(
             "Nike CN (Browse API)",
             "https://api.nike.com/cic/browse/v2",
@@ -292,7 +298,6 @@ def main():
         test_http_get("Adidas CN (首页连通)", "https://www.adidas.com.cn/", is_json=False),
         test_http_get("New Balance CN (首页连通)", "https://www.newbalance.com.cn/", is_json=False),
         test_http_get("Salomon CN (首页连通)", "https://www.salomon.com.cn/", is_json=False),
-        # 多品牌买手店鞋履备选通道（Shopify 开放 JSON）
         test_http_get("买手店 KITH (鞋履JSON)", "https://kith.com/collections/mens-footwear/products.json?limit=25"),
         test_http_get("买手店 Feature (鞋履JSON)", "https://feature.com/collections/footwear/products.json?limit=25"),
         test_http_get("买手店 ExtraButter (鞋履JSON)", "https://extrabutterny.com/collections/footwear/products.json?limit=25"),
