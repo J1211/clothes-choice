@@ -1,0 +1,2817 @@
+{
+  "updated_at": "2026-11-28 16:31 (UTC+8)",
+  "weather": {
+    "today_min": 6.0,
+    "today_max": 14.2,
+    "week_min": 2.9,
+    "week_max": 23.0,
+    "rain_max": 39,
+    "summary": "今日 6.0~14.2℃（本周 2.9~23.0℃），最高降水概率 39%",
+    "dress_hint": "凉爽微风（适合风衣/夹克/薄针织配长裤）"
+  },
+  "fx": {
+    "USD_CNY": 6.670928,
+    "HKD_CNY": 0.8521
+  },
+  "models_used": [
+    "gemini-3.5-flash-lite",
+    "gemini-3.6-flash",
+    "gemini-4-hydrogen"
+  ],
+  "total_count": 100,
+  "items": [
+    {
+      "id": "e48c9a63629a",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 ADV - White / Lunar Rock",
+      "price_cny": 1234,
+      "price_note": "≈¥1234 ($185)",
+      "material_raw": "XT-6 ADV silhouette Durable mesh uppers with welded TPU film Salomon branding on side heel OrthoLite sockliner Quicklace system with toggle Dual-density midsole Contagrip rubber outsole Style: SL41252900 Color: White / L",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL41252900SalomonXT6ADVWhiteLunarRock_2647_c2ab3801-586f-483a-8b57-ca136e3b9ae5.jpg?v=1754503350",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL41252900SalomonXT6ADVWhiteLunarRock_2648_ca6dc9a2-35bd-4ba7-a17f-e09a2f28d12e.jpg?v=1754503350",
+      "url": "https://kith.com/products/sl41252900",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 ADV 户外运动鞋",
+      "score": 8.7,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "上海适穿",
+        "防水耐造"
+      ],
+      "material_note": "采用耐磨网眼鞋面搭配TPU焊接膜，OrthoLite鞋垫与Contagrip橡胶大底，兼具轻量化与抓地防滑性能。",
+      "visual_note": "标志性窄长鞋楦与流畅线条，白灰配色层次丰富，兼具山系户外基因与现代都市Clean Fit美学。",
+      "shanghai_advice": "上海近期6-14℃且有降水概率，搭配防风夹克与工装长裤，既抗风又防水耐造，完美适应湿冷天气。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-28 16:31 (UTC+8)"
+    },
+    {
+      "id": "8d889d4ba626",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Air Max Ecstasy Plus - Black",
+      "price_cny": 1201,
+      "price_note": "≈¥1201 ($180)",
+      "material_raw": "Air Max Ecstasy Plus silhouette Mesh upper Synthetic overlays Padded collar Swoosh at tongue and toe cap Rubberized toe cap Perforated toe Rope laces Max Air branding on the heel Rubberized heel tab Nike Air cushioning R",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV7022-002_PHSRH000-2000.jpg?v=1793390150",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV7022-002_PHCFH001-2000.jpg?v=1793390151",
+      "url": "https://kith.com/products/nikiv7022-002",
+      "is_shoe": true,
+      "title_cn": "Nike Air Max Ecstasy Plus 运动鞋",
+      "score": 8.1,
+      "style_tags": [
+        "复古运动",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "上海适穿",
+        "防水耐造"
+      ],
+      "material_note": "网眼鞋面搭配大量合成革与TPU覆面，搭载Max Air气垫与橡胶大底，用料扎实，具备出色的缓震与耐用度。",
+      "visual_note": "全黑流线型鞋身极具视觉冲击力，立体感十足的线条层次彰显强烈的千禧复古运动风格。",
+      "shanghai_advice": "全黑配色耐脏抗污，面对上海可能出现的阴雨天气毫无压力，搭配宽松运动裤或机能风长裤最为契合。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-28 16:31 (UTC+8)"
+    },
+    {
+      "id": "d5f3f92898b0",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-Whisper - Vanilla Ice / White / Grisaille",
+      "price_cny": 967,
+      "price_note": "≈¥967 ($145)",
+      "material_raw": "XT-Whisper silhouette Mesh upper Synthetic overlays Padded collar Salomon patch on the tongue XT-Whisper branding on the tongue Rubberized toe cap with Salomon branding Salomon branding on the back heel QuickLACE™ system",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/1856947.jpg?v=1786043021",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/1856956.jpg?v=1786043021",
+      "url": "https://kith.com/products/sall49238300",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-Whisper 复古机能跑鞋",
+      "score": 8.4,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "网布鞋面搭配合成覆层与QuickLACE快绑系统，高防刮耐磨，机能包裹感强但无皮质用料。",
+      "visual_note": "香草白与灰调拼色十分高级，弧形线条极具流线感，为Clean Fit与City Boy搭建神鞋。",
+      "shanghai_advice": "6-14℃凉爽偶雨天气，搭配防风外套与工装裤，防溅透气且机能感十足。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-28 16:31 (UTC+8)"
+    },
+    {
+      "id": "a22f84e32a99",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "羊绒手套",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075246/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075246",
+      "is_shoe": false,
+      "title_cn": "优衣库纯羊绒针织手套",
+      "score": 8.5,
+      "style_tags": [
+        "老钱静奢",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿",
+        "高性价比"
+      ],
+      "material_note": "甄选100%纯羊绒材质，触感软糯细腻，保暖性能优异，百元出头的定价极具天然面料性价比。",
+      "visual_note": "亮丽的玫红色调极具视觉张力，螺纹收口设计精致，可作为沉闷冬日造型的点睛之笔。",
+      "shanghai_advice": "本周早晚体感较凉，骑行或早晚通勤时佩戴此款羊绒手套，能有效抵御湿冷空气。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-28 16:31 (UTC+8)"
+    },
+    {
+      "id": "9450af3ffe81",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "牛津纺条纹衬衫/长袖",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000077528/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000077528",
+      "is_shoe": false,
+      "title_cn": "优衣库牛津纺浅粉条纹长袖衬衫",
+      "score": 8.3,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "经典纯棉牛津纺面料，挺括耐穿且透气性佳，149元定价在天然材质基础款中极具性价比。",
+      "visual_note": "浅粉细条纹清新减龄，标准合身剪裁搭配经典纽扣领，单穿或作为内搭都显得干净利落。",
+      "shanghai_advice": "牛津纺衬衫透气挺括，适合今日6-14℃凉爽天气，单穿或作内搭皆宜。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "ccf58e2b7639",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Vomero Plus - Black / Dark Smoke Grey / Anthracite / Metallic Dark Grey",
+      "price_cny": 1268,
+      "price_note": "≈¥1268 ($190)",
+      "material_raw": "Vomero Plus silhouette Mesh upper Padded collar TPU eyelets Rubberized toe cap Vomero Plus branding on the tongue Swoosh on the side panels Flat woven laces Heel pull ZoomX foam midsole High-abrasion rubber outsole Style",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IM3985-001_PHSRH000-2000.jpg?v=1795611263",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IM3985-001_PHCTH001-2000.jpg?v=1795611263",
+      "url": "https://kith.com/products/nikim3985-001",
+      "is_shoe": true,
+      "title_cn": "Nike Vomero Plus 黑灰机能缓震跑鞋",
+      "score": 8.1,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "工程网眼配橡胶化鞋头，搭载全掌ZoomX泡棉中底与高耐磨外底，脚感顶级且配置扎实。",
+      "visual_note": "黑灰暗纹鞋面低调酷飒，流线型厚底轮廓兼顾机能感与增高效果，日常Clean Fit极度百搭。",
+      "shanghai_advice": "缓震跑鞋轻便舒适，适合本周上海多变气温下的日常通勤与运动出行。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "a97d9799882a",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "souffle yarn舒芙蕾POLO领针织衫",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076540/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076540",
+      "is_shoe": false,
+      "title_cn": "Uniqlo 舒芙蕾POLO领针织衫",
+      "score": 8.0,
+      "style_tags": [
+        "质感基础",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "舒芙蕾纱线以化纤混纺为主，虽非纯羊毛但触感软糯亲肤不扎人，149元性价比极高。",
+      "visual_note": "米白色调干净温柔，POLO领口修饰颈部线条，微宽松版型搭配罗纹下摆，叠穿质感出色。",
+      "shanghai_advice": "舒芙蕾针织衫触感软糯，厚度适中，适合本周上海早晚微凉时单穿或叠穿。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "a79860055280",
+      "brand": "UR",
+      "category": "休闲裤装",
+      "title": "Wide-leg Drawstring Waist Cotton Pants",
+      "price_cny": 373,
+      "price_note": "≈¥373 ($55)",
+      "material_raw": "SPU: UUV660075 Color: Black, Grey Material Composition: Made from 100% cotton, this fabric provides a breathable and soft feel for your daily wear. Design Details: Wash at lower temperatures on a delicate cycle to preser",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV660075B6A_2.jpg?v=1793669692",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV660075B6A_1.jpg?v=1793669692",
+      "url": "https://global.urbanrevivo.com/products/black-wide-leg-drawstring-waist-cotton-pants-uuv660075",
+      "is_shoe": false,
+      "title_cn": "UR 纯棉抽绳阔腿休闲裤",
+      "score": 8.1,
+      "style_tags": [
+        "松弛街头",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "采用100%纯棉面料，触感软糯透气，无化纤成分，373元定价符合纯棉阔腿裤的合理价值。",
+      "visual_note": "宽松直筒廓形搭配抽绳设计，黑色垂坠质感好，兼具松弛街头感与日常高百搭度。",
+      "shanghai_advice": "纯棉阔腿裤透气舒适，适合本周上海凉爽天气，搭配针织衫或衬衫皆宜。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "ca264af05520",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "弹力长裤/灯芯绒",
+      "price_cny": 199,
+      "price_note": "¥199 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076520/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076520",
+      "is_shoe": false,
+      "title_cn": "优衣库 男装弹力灯芯绒长裤",
+      "score": 8.4,
+      "style_tags": [
+        "老钱静奢",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "灯芯绒面料具备复古绒感与微弹拉伸度，199元售价展现出极高性价比与扎实实穿度。",
+      "visual_note": "经典直筒剪裁修饰腿型，深色绒面光泽细腻，视觉上自带秋冬温润的老钱复古氛围。",
+      "shanghai_advice": "灯芯绒长裤具备微保暖性，适合本周上海6-14℃气温，复古风格百搭。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "9f3afbc14513",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "拉链短茄克",
+      "price_cny": 399,
+      "price_note": "¥399 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076541/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076541",
+      "is_shoe": false,
+      "title_cn": "优衣库 男装拉链短外套夹克",
+      "score": 8.5,
+      "style_tags": [
+        "极简通勤",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "面料质地挺括防风，用料扎实做工精细，399元定价在秋冬短夹克中性价比较高。",
+      "visual_note": "翻领拉链短款剪裁十分干练，深色调高级沉稳，优化身形比例，呈现出利落通勤范。",
+      "shanghai_advice": "短款夹克防风挺括，适合本周上海凉爽微风天气，作为外层保暖防风佳选。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "e4bf68b7e577",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "羊绒半高领针织衫/短袖",
+      "price_cny": 499,
+      "price_note": "¥499 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076522/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076522",
+      "is_shoe": false,
+      "title_cn": "优衣库纯羊绒半高领短袖针织衫",
+      "score": 8.3,
+      "style_tags": [
+        "老钱静奢",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "100%山羊绒材质，绒面细腻亲肤软糯，499元能买到纯羊绒针织衫具有极高用料诚意。",
+      "visual_note": "奶白色调温润高雅，半高领搭配短袖剪裁形成独特内搭比例，肩线顺滑，极简静奢感十足。",
+      "shanghai_advice": "羊绒短袖针织衫轻薄亲肤，适合本周上海气温较高时段或作为内搭保暖。",
+      "ai_model": "gemini-3.8-flash",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "3354cbb6a15c",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "羊绒两翻领针织衫/长袖",
+      "price_cny": 599,
+      "price_note": "¥599 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075218/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075218",
+      "is_shoe": false,
+      "title_cn": "优衣库100%山羊绒两翻领针织衫",
+      "score": 8.4,
+      "style_tags": [
+        "老钱静奢",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "599元能买到纯山羊绒材质，在市面上极具性价比；虽克重偏轻薄，但亲肤度与基础保暖性远超同价位化纤。",
+      "visual_note": "标准微宽松肩线与干净的浅灰调，两翻领高度适中不显臃肿，单穿或作为大衣内搭都自带高级静奢感。",
+      "shanghai_advice": "轻薄羊绒针织衫保暖亲肤，适合本周上海早晚温差，可单穿或作中间层。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "7aff2af5b9b0",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "羊绒半拉链针织衫/长袖",
+      "price_cny": 699,
+      "price_note": "¥699 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075224/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075224",
+      "is_shoe": false,
+      "title_cn": "优衣库山羊绒半拉链立领针织衫",
+      "score": 8.5,
+      "style_tags": [
+        "老钱静奢",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "同样采用纯山羊绒面料，699元定价虽比套头款略高，但增加了半拉链五金与立领工艺，材质价值比依然在线。",
+      "visual_note": "半拉链立领设计比传统圆领更具层次感，浅灰配色配合自然垂坠的衣身，能轻松穿出Clean Fit的松弛感。",
+      "shanghai_advice": "羊绒立领针织衫保暖性好，适合本周上海微凉天气，立领设计防风舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "9481f3109fe8",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "保暖束脚裤/加绒暖裤",
+      "price_cny": 99,
+      "price_note": "¥99 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075231/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075231",
+      "is_shoe": false,
+      "title_cn": "优衣库 男士防风保暖束脚休闲裤",
+      "score": 8.2,
+      "style_tags": [
+        "质感基础",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "99元定价性价比极高，虽为聚酯保暖复合面料，但防风耐磨且具备扎实的日常实用性。",
+      "visual_note": "深藏青配色沉稳耐看，宽松收口束脚剪裁修饰腿型，兼具日系松弛感与都市基础实用度。",
+      "shanghai_advice": "防风束脚裤耐磨实用，适合本周上海多变天气，提供基础保暖与活动便利。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-27 17:12 (UTC+8)"
+    },
+    {
+      "id": "612185f93385",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GTX - Safari / Safari / Black",
+      "price_cny": 1336,
+      "price_note": "≈¥1336 ($200)",
+      "material_raw": "XT-6 GTX silhouette Synthetic and textile upper Padded collar Metal and nylon eyelets Gortex branding on toe S logo patch and Salomon branding nylon stripe on tongue Salomon and XT-6 Goretext branding on ankle Webbing la",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/L47445500_0_GHO_XT-6_20GTX_20Safari_Safari_Black_e8186273-6673-4ebf-a065-c007e5a6cf0b.jpg?v=1757618880",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL47445500SalomonXt-6GtxSafariSafariBlack_3209_7b711a4f-9014-4d06-afb5-0326a103af14.jpg?v=1757618881",
+      "url": "https://kith.com/products/sl47445500",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GTX 户外徒步鞋",
+      "score": 8.5,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用轻量合成织物鞋面，搭载Gore-Tex防水薄膜与ACS底盘，兼顾全天候防护与支撑力。",
+      "visual_note": "经典的Safari沙色与黑色交织，线条锐利流畅，机能风辨识度极高，百搭且层次分明。",
+      "shanghai_advice": "GTX徒步鞋防水透气，适合本周上海最高39%降水概率，全天候防护佳。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-26 16:58 (UTC+8)"
+    },
+    {
+      "id": "6683cc309219",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 2010 - Sport Green / Wakame",
+      "price_cny": 968,
+      "price_note": "≈¥968 ($145)",
+      "material_raw": "2010 silhouette Nubuck and synthetic overlays Diamond-knit mesh underlays Padded collar NB branding on tongue and heel Molded ‘N’ logo on side panel Flat laces Translucent TPU Stability Web shank Reflective accents ABZOR",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u20103to_nb_02_i.jpg?v=1795624307",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u20103to_nb_04_i.jpg?v=1795624307",
+      "url": "https://kith.com/products/nwbu20103to",
+      "is_shoe": true,
+      "title_cn": "New Balance 2010 复古慢跑鞋",
+      "score": 8.7,
+      "style_tags": [
+        "复古运动",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "鞋面大面积采用优质努布革（Nubuck）与钻石网眼拼接，辅以ABZORB缓震中底，用料诚意十足。",
+      "visual_note": "沉稳的Wakame草木绿配色复古高级，鞋楦比例饱满，侧面Molded 'N' Logo极具质感。",
+      "shanghai_advice": "复古慢跑鞋缓震舒适，适合本周上海凉爽天气下的日常穿搭与轻度运动。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-26 16:58 (UTC+8)"
+    },
+    {
+      "id": "35fdf04eaf83",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-4 OG - Lava Falls / Beach Ball / Black",
+      "price_cny": 1269,
+      "price_note": "≈¥1269 ($190)",
+      "material_raw": "XT-4 OG silhouette Anti-debris mesh upper Textured TPU film overlays Protective toe cap Padded collar Webbing lacing system Salomon branding on the tongue Salomon branding on the ankle Salomon LAB branding on toe front M",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SLL49159700SalomonXT-4OGLavaFallsBeachBallBlack_136.jpg?v=1779121395",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SLL49159700SalomonXT-4OGLavaFallsBeachBallBlack_137.jpg?v=1779121395",
+      "url": "https://kith.com/products/sll49159700",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-4 OG 户外越野鞋",
+      "score": 8.5,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "抗debris网眼鞋面搭配耐磨TPU膜覆盖层，搭载Contagrip外底，机能属性拉满。",
+      "visual_note": "标志性渐变熔岩红配色视觉冲击力极强，鞋楦线条流畅，极具未来主义的户外美学。",
+      "shanghai_advice": "越野鞋耐磨防滑，适合本周上海可能出现的湿滑路面，机能属性强。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-26 16:58 (UTC+8)"
+    },
+    {
+      "id": "b850138b7aa3",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 ADV - Black / Phantom",
+      "price_cny": 1235,
+      "price_note": "≈¥1235 ($185)",
+      "material_raw": "XT-6 ADV silhouette Durable mesh uppers with welded TPU film Salomon branding on side heel OrthoLite sockliner Quicklace system with toggle Dual-density midsole Contagrip rubber outsole Style: SL41086600 Color: Black / P",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL41086600.jpg?v=1760562505",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL41086600SalomonXT6ADVBlackPhantom_2673_08bdd076-9058-4ce3-9120-fa562955b49c.jpg?v=1760562505",
+      "url": "https://kith.com/products/sl41086600",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 ADV 经典机能鞋",
+      "score": 8.8,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "耐磨网眼结合无缝TPU薄膜，OrthoLite鞋垫与Quicklace快系系统，用料扎实高级。",
+      "visual_note": "纯黑/幻影灰配色低调沉稳，鞋楦比例修长优雅，是近年来Clean Fit与机能风的绝对核心。",
+      "shanghai_advice": "机能鞋用料扎实，适合本周上海凉爽天气，快系系统方便日常快速穿脱。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-26 16:58 (UTC+8)"
+    },
+    {
+      "id": "ee7741d9d61e",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "仿羊羔绒运动长裤/加长款/加绒暖裤",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076517/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076517",
+      "is_shoe": false,
+      "title_cn": "优衣库加绒仿羊羔绒束脚运动裤",
+      "score": 8.1,
+      "style_tags": [
+        "质感基础",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "采用加绒保暖面料，触感柔软厚实，兼顾优异的御寒性能与亲肤舒适度，耐洗耐穿。",
+      "visual_note": "经典束脚版型，线条利落不臃肿，深色调百搭耐看，轻松塑造随性日常的街头运动风格。",
+      "shanghai_advice": "加绒运动裤保暖性过强，适合本周上海23℃高温时段，今日6℃略显闷热。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-25 17:19 (UTC+8)"
+    },
+    {
+      "id": "48a612abc50a",
+      "brand": "MUJI",
+      "category": "毛衣针织",
+      "title": "Recyclable Fleece Cardigan",
+      "price_cny": 266,
+      "price_note": "≈¥266 ($39)",
+      "material_raw": "This cozy men's cardigan is a versatile piece that is lightweight but warm, allowing you to wear it as a light jacket in the fall or as a mid-layer in the winter. Designed for easy recycling as part of a resource-circula",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315478538_06_org.jpg?v=1761602219",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315478538_org_c9dc96f0-86db-437b-85ad-a247285f1c03.jpg?v=1761602219",
+      "url": "https://www.muji.us/products/recyclable-fleece-cardigan-ab1p825a",
+      "is_shoe": false,
+      "title_cn": "无印良品环保摇粒绒开衫外套",
+      "score": 8.0,
+      "style_tags": [
+        "质感基础",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用环保可回收摇粒绒材质，质地轻盈且锁温保暖，日常打理便捷，兼顾环保理念与实用性价比。",
+      "visual_note": "经典无领开衫设计，线条干练极简，黑色百搭且利落，作为中层叠穿极具层次感与都市机能风。",
+      "shanghai_advice": "摇粒绒开衫轻盈锁温，适合本周上海早晚微凉，作为外层或中间层皆宜。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-25 17:19 (UTC+8)"
+    },
+    {
+      "id": "6e6941e44801",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Kobe 8 Protro - Laser Orange / Cinnabar / Safety Orange",
+      "price_cny": 1336,
+      "price_note": "≈¥1336 ($200)",
+      "material_raw": "Kobe 8 Protro silhouette Synthetic upper All-over printed graphic Padded collar Kobe Sheath logo on the tongue Swoosh on the side panels Flat laces Kobe signature on the side heel Traction rubber outsole Style: nikio6259",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIO6259-800NikeKobe8ProtroLowFPOGBurntSunriseBlack-Gold-Chrome.jpg?v=1794345881",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIO6259-800NikeKobe8ProtroLowFPOGBurntSunriseBlack-Gold-Chrome1.jpg?v=1794345882",
+      "url": "https://kith.com/products/nikio6259-800",
+      "is_shoe": true,
+      "title_cn": "Nike Kobe 8 Protro 篮球鞋",
+      "score": 8.2,
+      "style_tags": [
+        "松弛街头",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "合成革与网眼鞋面，大面积印花工艺细腻，搭载抓地橡胶大底与专业缓震科技，运动性能与轻量化兼备。",
+      "visual_note": "低帮鞋楦流线感极强，亮眼明快的橙色与火焰艺术印花视觉冲击力十足，日常出街吸睛度与搭配张力拉满。",
+      "shanghai_advice": "篮球鞋缓震抓地，适合本周上海凉爽天气下的运动或休闲穿搭，透气性好。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-25 17:19 (UTC+8)"
+    },
+    {
+      "id": "328b84b347fa",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x BAPE Crazy Energy - Silver Metallic",
+      "price_cny": 1336,
+      "price_note": "≈¥1336 ($200)",
+      "material_raw": "adidas x BAPE Crazy Energy silhouette Synthetic upper Padded collar WGM branding on the tongue Tri-Stripes on the side panels Reflective accent adidas and BAPE branding on the heel Lightstrike Pro midsole cushioning Rubb",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KH8660_b2b012_plp_9426931e-cd34-4096-99e5-a8314384ad66.jpg?v=1794004242",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/7ad038de503ad8796e8c8c827989def41c8b4bc4-2140x1520_d126831f-89e5-443a-bdb2-3efdefe2b0ab.jpg?v=1794004243",
+      "url": "https://kith.com/products/aakh8660",
+      "is_shoe": true,
+      "title_cn": "adidas x BAPE 银色联名运动鞋",
+      "score": 8.3,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "合成革鞋面融入大面积金属银涂层，搭载Lightstrike Pro缓震中底与反光细节，工艺精湛且极具未来感。",
+      "visual_note": "鞋型流线前卫，标志性迷彩暗纹与银色金属质感碰撞出强烈的机能赛博美学，极具视觉辨识度与搭配爆发力。",
+      "shanghai_advice": "联名运动鞋设计独特，适合本周上海凉爽天气，合成革鞋面防风且易打理。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-25 17:19 (UTC+8)"
+    },
+    {
+      "id": "67703a9a032f",
+      "brand": "MUJI",
+      "category": "外套大衣",
+      "title": "Water Repellent Down Coat",
+      "price_cny": 1802,
+      "price_note": "≈¥1802 ($269)",
+      "material_raw": "This men's down coat offers water resistance, making it ideal for autumn and winter. Its lightweight design allows for easy layering during mild days, while the windproof feature protects you in blustery conditions. Fill",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315895380_07_org.jpg?v=1759164646",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315895380_org.jpg?v=1759164640",
+      "url": "https://www.muji.us/products/water-repellent-down-coat-ad0xn25a",
+      "is_shoe": false,
+      "title_cn": "MUJI 黑色防泼水连帽长款羽绒服",
+      "score": 8.1,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "防水耐造"
+      ],
+      "material_note": "具备防泼水与防风功能的轻量羽绒填充，实用性与保暖性兼备，做工扎实耐造，虽1802元定价略高但品质对得起价格。",
+      "visual_note": "全黑长款连帽廓形极简克制，隐形门襟与立领连帽设计干净利落，几乎不挑身材，是冬季通勤的万能质感外套。",
+      "shanghai_advice": "长款羽绒服保暖性极强，适合本周上海2.9℃低温日，今日14℃穿着过于厚重。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-25 17:19 (UTC+8)"
+    },
+    {
+      "id": "21b50c73b6d4",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GORE-TEX - Black / Icy Pink / Dawn Pink",
+      "price_cny": 1336,
+      "price_note": "≈¥1336 ($200)",
+      "material_raw": "XT-6 GORE-TEX silhouette Synthetic and textile upper Padded collar Metal and nylon eyelets GORE-TEX branding on the toe S logo patch and Salomon nylon stripe on the tongue Webbing lacing system Salomon and XT-6 Gore-tex ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_5_1e687c7c-fb04-4e3e-b649-0c8ce7fd0749.jpg?v=1788962137",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_7.jpg?v=1788962137",
+      "url": "https://kith.com/products/sall49215600",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GTX 户外机能跑鞋",
+      "score": 8.6,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用GORE-TEX防水薄膜与耐磨合成织物鞋面，搭配快拆鞋带系统与Contagrip大底，全天候机能属性拉满。",
+      "visual_note": "经典XT-6流线型鞋楦，低饱和冰川粉与黑色的撞色极具视觉张力，兼具硬核户外感与时髦街头属性。",
+      "shanghai_advice": "GTX机能跑鞋防水透气，适合本周上海降水概率较高时穿着，保持脚部干爽。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-24 18:30 (UTC+8)"
+    },
+    {
+      "id": "03133955a4d0",
+      "brand": "UR",
+      "category": "衬衫卫衣",
+      "title": "Oversized Embroidered Patch Cotton Shirt",
+      "price_cny": 320,
+      "price_note": "≈¥320 ($47)",
+      "material_raw": "SPU : UUV260069 Color : Black Material Composition : 68% cotton, 28% polyamide, 4% elastane. A mid-weight knit with subtle stretch delivers a refined hand, structure, and durability. Care: wash cold, delicate cycle; do n",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV260069B6A_2_6eb3137a-4e62-4eb0-8b99-4900d7479efa.jpg?v=1789695971",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV260069B6A_1_ef45d1b7-9682-44ae-8f32-30b8ec439f5d.jpg?v=1789695971",
+      "url": "https://global.urbanrevivo.com/products/oversized-embroidered-patch-cotton-shirt-uuv260069",
+      "is_shoe": false,
+      "title_cn": "UR宽松刺绣拼接棉衬衫",
+      "score": 8.4,
+      "style_tags": [
+        "松弛街头",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "68%纯棉为主要面料，余下为聚酰胺与弹性纤维，天然棉料占比高，手感柔软且有轻微弹性。",
+      "visual_note": "宽松版型配合大面积刺绣补丁，肩线自然下垂，黑色基调搭配白色刺绣，街头感十足。",
+      "shanghai_advice": "宽松棉衬衫柔软透气，适合本周上海凉爽天气，单穿舒适或作内搭皆宜。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-24 18:30 (UTC+8)"
+    },
+    {
+      "id": "df437fc2f0f5",
+      "brand": "UR",
+      "category": "衬衫卫衣",
+      "title": "Text Print Crew Neck Long Sleeve Cotton Sweatshirt",
+      "price_cny": 373,
+      "price_note": "≈¥373 ($55)",
+      "material_raw": "This golden-mustard crewneck sweatshirt fuses vintage streetwear aesthetics with modern comfort, featuring distinctive \"Memories 1979\" embroidery and wavy retro typography. Crafted from thick, stretch cotton, the relaxed",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV460214Y6A_2.jpg?v=1791795688",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV460214Y6A_1.jpg?v=1791795688",
+      "url": "https://global.urbanrevivo.com/products/text-print-crew-neck-long-sleeve-cotton-sweatshirt-uuv460214",
+      "is_shoe": false,
+      "title_cn": "UR金黄复古印花长袖卫衣",
+      "score": 8.6,
+      "style_tags": [
+        "复古运动",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用100%厚棉面料，厚实且具一定弹性，纯天然纤维提供良好保暖与透气。",
+      "visual_note": "宽松圆领设计，金黄与暗黄拼接形成复古配色，胸前大号刺绣字样提升街头辨识度。",
+      "shanghai_advice": "厚棉卫衣保暖透气，适合本周上海早晚微凉，单穿或搭配外套均合适。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-24 18:30 (UTC+8)"
+    },
+    {
+      "id": "60c8a3edcc57",
+      "brand": "UR",
+      "category": "衬衫卫衣",
+      "title": "Pastel Pink Embroidered Dog Outline Cotton T-shirt",
+      "price_cny": 240,
+      "price_note": "≈¥240 ($35)",
+      "material_raw": "SPU : UML460172 Color : Pink Material Composition 89% Cotton, 11% Polyamide, exclusive of decoration; medium-thickness fabric with a subtle stretch for comfort and shape retention. Design Details Embroidered dog outline ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML460172RE1_2.jpg?v=1785816133",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML460172RE1_1.jpg?v=1785816133",
+      "url": "https://global.urbanrevivo.com/products/pastel-pink-embroidered-dog-outline-cotton-t-shirt-uml460172",
+      "is_shoe": false,
+      "title_cn": "UR粉色刺绣狗轮廓棉T恤",
+      "score": 8.2,
+      "style_tags": [
+        "松弛街头",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "89%纯棉为主体，11%聚酰胺提升耐磨与形状保持，天然面料占比高，舒适透气。",
+      "visual_note": "柔粉底色配以细致狗形刺绣，版型宽松略带垂感，色彩清新且易于日常混搭。",
+      "shanghai_advice": "纯棉T恤轻薄透气，适合本周上海23℃高温时段或作为内搭，今日单穿偏凉。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-24 18:30 (UTC+8)"
+    },
+    {
+      "id": "6e00373b8ac6",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "仿羊羔绒运动长裤/加绒暖裤",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076178/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076178",
+      "is_shoe": false,
+      "title_cn": "优衣库男士加绒保暖束脚运动裤",
+      "score": 8.2,
+      "style_tags": [
+        "质感基础",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用摇粒绒内衬与化纤混纺面料，防风保暖性佳，149元定价极具性价比与实用价值。",
+      "visual_note": "束脚利落剪裁配合深沉藏青配色，下摆螺纹包裹到位，整体视觉饱满且松弛适度。",
+      "shanghai_advice": "加绒运动裤防风保暖，适合本周上海低温时段，日常居家或休闲出行皆宜。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "3f7cdfdf7081",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GTX - White Pepper / Silver Sage / Dark Gull",
+      "price_cny": 1336,
+      "price_note": "≈¥1336 ($200)",
+      "material_raw": "XT-6 GTX silhouette Synthetic and textile upper Padded collar Salomon logo on the padded tongue Metal and nylon eyelets GORE-TEX branding on the front Salomon and XT-6 GTX branding on side panels Webbing lacing system Wo",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/image_6_9d7db7f3-05b8-44cc-afc9-884dd94951d4.jpg?v=1788962107",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/image_8_6639882d-9e57-4b28-bb41-2fbf19bc9182.jpg?v=1788962108",
+      "url": "https://kith.com/products/sall49215100",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GTX 灰绿机能越野鞋",
+      "score": 8.6,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用合成材质与织物鞋面，搭载Gore-Tex防水透气膜及Quicklace快速系带系统，用料扎实机能性强。",
+      "visual_note": "修长流线型越野跑鞋楦，白胡椒与鼠尾草绿拼接高级耐看，兼顾日常Clean Fit与户外机能感。",
+      "shanghai_advice": "GTX越野鞋防水耐磨，适合本周上海多变天气，提供全天候足部保护。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "09d64a6c1799",
+      "brand": "UR",
+      "category": "休闲裤装",
+      "title": "Oversized Zippered Cargo Panelled Cotton Wide-leg Pants",
+      "price_cny": 467,
+      "price_note": "≈¥467 ($69)",
+      "material_raw": "Craft an elevated everyday look in these wide-leg trousers, where rich earth tones and structured paneling redefine relaxed utility for the modern wardrobe. The architectural silhouette and side zippers create a fluid, c",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML660106Z6A_2_0913f53e-0f13-4ca4-ac72-2493ff3d9315.jpg?v=1790585226",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML660106Z6A_1_efae59d7-d1c7-48aa-958f-3ef244fcaba6.jpg?v=1790585226",
+      "url": "https://global.urbanrevivo.com/products/oversized-zippered-cargo-panelled-cotton-wide-leg-pants-uml660106",
+      "is_shoe": false,
+      "title_cn": "UR 廓形拉链拼接全棉宽腿工装裤",
+      "score": 8.1,
+      "style_tags": [
+        "松弛街头",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "全棉材质打造，面料挺括有骨感，配合侧边拉链与多片拼接工艺，在467元价位段诚意较足。",
+      "visual_note": "建筑感宽腿廓形剪裁利落，大地深棕色调高级沉稳，视觉拉长腿部比例，街头氛围浓厚。",
+      "shanghai_advice": "全棉工装裤挺括有型，适合本周上海凉爽天气，搭配卫衣或衬衫风格休闲。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "1dbca2f897f4",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "HEATTECH V领T恤/9分袖",
+      "price_cny": 79,
+      "price_note": "¥79 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075658/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075658",
+      "is_shoe": false,
+      "title_cn": "优衣库 HEATTECH V领九分袖打底T恤",
+      "score": 8.1,
+      "style_tags": [
+        "质感基础"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "HEATTECH吸湿发热科技化纤面料，轻薄贴身且锁温性佳，79元定价极具性价比。",
+      "visual_note": "纯净白色搭配利落V领剪裁，九分袖设计方便叠穿露不出袖口，贴合身形不显臃肿。",
+      "shanghai_advice": "HEATTECH打底衫轻薄锁温，适合本周上海作为内搭，提升整体保暖舒适度。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "4d45fc4efe92",
+      "brand": "MUJI",
+      "category": "休闲裤装",
+      "title": "Men's Water Repellent Wind Pants",
+      "price_cny": 234,
+      "price_note": "≈¥234 ($34)",
+      "material_raw": "These pants combine a water-repellent and windproof outer fabric designed to keep water and cold out to provide both comfort and functionality. Perfect for any outdoor activity, rain or shine. Item Size Chart Size Waist ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584570247_11_org.jpg?v=1763499889",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584570247_org.jpg?v=1763499727",
+      "url": "https://www.muji.us/products/mens-water-repellent-wind-pants-ae0zk25s",
+      "is_shoe": false,
+      "title_cn": "MUJI 浅灰白防泼水防风休闲裤",
+      "score": 8.0,
+      "style_tags": [
+        "都市机能",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "防风防泼水机能化纤面料，耐磨抗造且易打理，234元定价功能与价格匹配度高。",
+      "visual_note": "米白浅灰色调清爽百搭，腰部织带调节扣与微束脚版型干净利落，日常实穿度极高。",
+      "shanghai_advice": "防泼水休闲裤机能性强，适合本周上海降水概率较高时穿着，易打理。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "89ebc20742e8",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "弹力长裤/内里起毛加长款加绒暖裤",
+      "price_cny": 249,
+      "price_note": "¥249 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075659/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075659",
+      "is_shoe": false,
+      "title_cn": "优衣库内里加绒暖裤",
+      "score": 8.3,
+      "style_tags": [
+        "质感基础",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "内里采用起毛加绒设计，兼顾保暖与弹力拉伸，249元定价性价比突出，基础实用。",
+      "visual_note": "直筒剪裁修饰腿型，卡其配色经典干练，垂坠感适中，极具日常通勤百搭属性。",
+      "shanghai_advice": "加绒暖裤保暖性好，适合本周上海低温时段，搭配卫衣或针织衫舒适实用。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "58649a10b577",
+      "brand": "UR",
+      "category": "外套大衣",
+      "title": "Long Sleeve Mandarin Collar Zipper Front Button Detail Regular Fit Faded Washed Cotton Denim Jacket",
+      "price_cny": 587,
+      "price_note": "≈¥587 ($87)",
+      "material_raw": "This structured stand-collar denim jacket in a faded wash features distinctive horizontal buttoned bands, creating a sophisticated, military-inspired silhouette for modern, elevated casual dressing. SPU: UUV860107 Color:",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV860107L2A_2.jpg?v=1793087463",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV860107L2A_1.jpg?v=1793087463",
+      "url": "https://global.urbanrevivo.com/products/long-sleeve-mandarin-collar-zipper-front-button-detail-regular-fit-faded-washed-cotton-denim-jacket-uuv860107",
+      "is_shoe": false,
+      "title_cn": "UR 军装风盘扣立领牛仔夹克",
+      "score": 8.2,
+      "style_tags": [
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "采用纯棉水洗牛仔布，质感扎实硬挺，耐磨耐穿，587元对于重工艺设计款定价合理。",
+      "visual_note": "立领拉链结合独特的胸前军装横向扣带，水洗做旧蓝极具视觉张力与复古帅气廓形。",
+      "shanghai_advice": "牛仔夹克硬挺耐磨，适合本周上海凉爽微风天气，作为外层防风且具复古感。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-23 16:22 (UTC+8)"
+    },
+    {
+      "id": "5274feab9344",
+      "brand": "UR",
+      "category": "休闲裤装",
+      "title": "Panelled Wide-leg Drawstring Waist Cotton Pants",
+      "price_cny": 267,
+      "price_note": "≈¥267 ($39)",
+      "material_raw": "These earth-toned cotton trousers offer a relaxed, wide-leg silhouette that balances everyday comfort with refined tailoring. Featuring subtle vertical seam detailing and a soft drawstring waist, they provide a fluid dra",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUY660035SL1_2_fabdf141-c118-4308-b9e0-e9c80b796c56.jpg?v=1792583375",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUY660035SL1_1_910740b6-2676-4884-8766-9c8089c4f826.jpg?v=1792583375",
+      "url": "https://global.urbanrevivo.com/products/panelled-wide-leg-drawstring-waist-cotton-pants-uuy660035",
+      "is_shoe": false,
+      "title_cn": "UR大地色拼接阔腿抽绳棉质休闲裤",
+      "score": 8.1,
+      "style_tags": [
+        "松弛街头",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用纯棉面料，透气亲肤且具备一定挺括感，267元定价在快时尚中材质诚意较足。",
+      "visual_note": "深棕大地色高级耐看，纵向拼接线强化垂坠感，阔腿抽绳版型兼具松弛与利落。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "64c017099701",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 1080v15 - White / Satsuma Orange",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "1080v15 silhouette Mesh upper Padded collar TPU top eyelets New Balance 1080 branding on the padded tongue 'N' logo on the side panels and toe box Flat cotton laces New Balance logo branding at the heel Infinion foam mid",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/m108098n_nb_02_i.jpg?v=1794262368",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/m108098n_nb_05_i.jpg?v=1794262368",
+      "url": "https://kith.com/products/nwbm108098n",
+      "is_shoe": true,
+      "title_cn": "New Balance 1080v15 运动跑鞋",
+      "score": 8.5,
+      "style_tags": [
+        "复古运动",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用工程网眼鞋面透气舒适，搭载Infinion高回弹中底与TPU支撑，兼具轻量化与缓震机能。",
+      "visual_note": "流畅的流线型鞋楦搭配撞色大底，白色基调点缀亮橙，视觉层次丰富且充满活力。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "9560e42df7c2",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GTX - White / White / Silver",
+      "price_cny": 1339,
+      "price_note": "≈¥1339 ($200)",
+      "material_raw": "XT-6 GTX silhouette Synthetic and textile upper Padded collar Metal and nylon eyelets Gortex branding on toe S logo patch and Salomon branding nylon stripe on tongue Salomon and XT-6 Goretext branding on heel counter Web",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL47581100SalomonXT-6GTXWhiteWhiteFtwSilver_4638.jpg?v=1722262323",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL47581100SalomonXT-6GTXWhiteWhiteFtwSilver_4639.jpg?v=1722262323",
+      "url": "https://kith.com/products/sl47581100",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GTX 机能户外鞋",
+      "score": 8.8,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "合成与织物鞋面结合Gore-Tex防水薄膜，搭配金属孔眼与快拆系带系统，耐磨实用。",
+      "visual_note": "经典窄长鞋楦与银白拼接线条，呈现强烈的未来感机能美学，日常搭配辨识度极高。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "f00c8b628dad",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Air Max 90 SP - Medium Olive / Sequoia",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "Air Max 90 SP silhouette Leather upper Padded collar Perforated tongue and heel TPU eyelets Nike branding on the tongue Embossed Swoosh on side panels Flat cotton laces Visible sole unit Foam midsole Rubber outsole Style",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV4504-201_PHSRH000-2000.jpg?v=1794517053",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV4504-201_PHCTH001-2000.jpg?v=1794517053",
+      "url": "https://kith.com/products/nikiv4504-201",
+      "is_shoe": true,
+      "title_cn": "Nike Air Max 90 橄榄绿复古休闲鞋",
+      "score": 8.2,
+      "style_tags": [
+        "复古运动",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用皮革鞋面拼接TPU支撑眼扣，搭配可视化Air Max气垫与耐磨橡胶大底，整体质感扎实且具备不错的耐造度。",
+      "visual_note": "经典Air Max 90鞋型，中性沉稳的Medium Olive橄榄绿配色，层次丰富，完美契合当下流行的山系与工装风格。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "ed3bf2801ee0",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike LeBron XXIV - Polarized Blue / Black / Racer Blue / Multi",
+      "price_cny": 1339,
+      "price_note": "≈¥1339 ($200)",
+      "material_raw": "LeBron XXIV silhouette Three-layer KingKnit upper All-over honeycomb traction pattern Padded collar Metallic gold crown logo on the tongue Swoosh on the side panel KingKnit branding on the ankle Flat laces Double Air Zoo",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IO8204-400_PHSRH000-2000_1.jpg?v=1794863761",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IO8204-400_PHCFH001-2000.jpg?v=1794863761",
+      "url": "https://kith.com/products/nikio8204-400",
+      "is_shoe": true,
+      "title_cn": "Nike LeBron XXIV 蓝黑实战篮球鞋",
+      "score": 8.0,
+      "style_tags": [
+        "复古运动",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "采用三层KingKnit轻量编织鞋面，搭配双层Air Zoom缓震气垫与蜂窝状全掌纹路，科技配置诚意满满。",
+      "visual_note": "流线型低帮鞋楦，亮眼的极光蓝与黑色交织出极强的未来科技感，鞋舌金色皇冠Logo点缀提升视觉辨识度。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "4cb9ead86ed3",
+      "brand": "UR",
+      "category": "外套大衣",
+      "title": "Wrap Tie Waist Textured Oversized Denim Jacket",
+      "price_cny": 441,
+      "price_note": "≈¥441 ($65)",
+      "material_raw": "Fabric 100% Cotton Thickness Thick Stretch Fabric Non-Stretch Tips : Washing at lower temperatures and using delicate spin cycles are gentler on garments, helping to preserve their color, shape, and structure. Do not ble",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML840008LG1_2.jpg?v=1791774610",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UML840008LG1_1.jpg?v=1791774614",
+      "url": "https://global.urbanrevivo.com/products/kimono-lapel-denim-jacket-uml840008",
+      "is_shoe": false,
+      "title_cn": "UR 绑带系结廓形水洗牛仔外套",
+      "score": 8.3,
+      "style_tags": [
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "100%纯棉重磅牛仔面料，水洗纹理自然肌理感强，耐磨挺括且天然舒适。",
+      "visual_note": "道袍式交叉绑带设计打破传统牛仔外套框架，落肩宽大廓形展现极强街头松弛感。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "a95211ec3c5b",
+      "brand": "MUJI",
+      "category": "休闲裤装",
+      "title": "Cotton Easy Pants",
+      "price_cny": 334,
+      "price_note": "≈¥334 ($49)",
+      "material_raw": "These pants are made with light and soft washed cotton, and are comfortable enough to wear all year round. Its loose, relaxed fit gives you plenty of room for movement throughout the day. The waist is adjustable with a h",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315757589_07_org.jpg?v=1772556987",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315757589_01_org_3dc83dae-d960-4ddc-9df7-2031893de967.jpg?v=1772556987",
+      "url": "https://www.muji.us/products/cotton-easy-pants-ae0yz25a",
+      "is_shoe": false,
+      "title_cn": "MUJI 无印良品 水洗棉质松紧休闲裤",
+      "score": 8.1,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "选用水洗纯棉面料，触感轻盈柔软，透气吸汗且亲肤感佳，适合一年四季穿搭。",
+      "visual_note": "浅灰米调低饱和色彩，松紧腰带与微锥宽松剪裁结合，垂坠自然且兼顾日常实用性。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "c24d500f3cee",
+      "brand": "MUJI",
+      "category": "毛衣针织",
+      "title": "Wool Crewneck Sweater",
+      "price_cny": 301,
+      "price_note": "≈¥301 ($44)",
+      "material_raw": "This men's washable mid gauge wool crewneck sweater features shrink-resistant wool making it easy to wash at home . Its mid gauge knit offers excellent warmth for layering, while staying soft and comfortable against your",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315711734_05_org.jpg?v=1756749451",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315711734_org.jpg?v=1756749213",
+      "url": "https://www.muji.us/products/wool-crew-neck-sweater-aa0tt25a",
+      "is_shoe": false,
+      "title_cn": "MUJI 可机洗中粗针织羊毛圆领毛衣",
+      "score": 8.4,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "防缩水处理羊毛面料支持居家机洗，301元能买到纯羊毛中粗针织，性价比极高。",
+      "visual_note": "经典花灰配色质感高级，正肩微宽松版型不挑身材，领口罗纹扎实，日常百搭。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "6c798be2cf07",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Mind 002 Flyknit - Black / Anthracite / Dark Smoke Grey",
+      "price_cny": 971,
+      "price_note": "≈¥971 ($145)",
+      "material_raw": "Mind 002 Flyknit silhouette Flyknit upper All-over perforations Padded collar Quick-lace toggle system Swoosh lace FOB Heel pull Moulded heel counter Nike Mind node cushioning system Soft foam midsole Rubber outsole Styl",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKE_20262_1090071119962_BLACK_DK_SMOKE_GREY-ANTHRACITE_3.jpg?v=1791927978",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKE_20262_1090071119962_BLACK_DK_SMOKE_GREY-ANTHRACITE_6.jpg?v=1791927978",
+      "url": "https://kith.com/products/nikir2176-002",
+      "is_shoe": true,
+      "title_cn": "Nike Mind 002 Flyknit 编织休闲鞋",
+      "score": 8.2,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "全Flyknit飞线编织鞋面配粗线打孔与抽绳系统，搭配异形发泡中底，透气且科技感十足。",
+      "visual_note": "黑灰暗调基底融入荧光缝线，圆润微隆的中底线条搭配袜套式鞋楦，充满未来机能感。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "a4e6aa112941",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "仿羊羔绒运动宽腿裤/侧拼线/加绒暖裤",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075636/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075636",
+      "is_shoe": false,
+      "title_cn": "优衣库 仿羊羔绒加绒宽腿运动裤",
+      "score": 8.1,
+      "style_tags": [
+        "复古运动",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "内里仿羊羔绒聚酯加绒面料，保暖软糯；149元极致性价比完美弥补化纤材质缺点。",
+      "visual_note": "复古深绿基调搭配侧边白线，垂坠宽腿阔腿版型拉长腿部线条，营造慵懒松弛街头感。",
+      "shanghai_advice": "建议搭配薄风衣或针织衫，配长裤，适合凉爽微风。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "04e69dddaca5",
+      "brand": "MUJI",
+      "category": "毛衣针织",
+      "title": "Andes Wool Crewneck Sweater",
+      "price_cny": 468,
+      "price_note": "≈¥468 ($69)",
+      "material_raw": "This men's wool crew neck sweater features wool harvested from animals in the upper elevations of the Andes mountains in South America. It's wool offers excellent warmth for layering. Made using thick sheep wool sourced ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315716371_06_org.jpg?v=1759163311",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315716371_org.jpg?v=1759163305",
+      "url": "https://www.muji.us/products/andes-wool-crewneck-sweater-aa0tx25a",
+      "is_shoe": false,
+      "title_cn": "MUJI 安第斯羊毛条纹圆领毛衣",
+      "score": 8.5,
+      "style_tags": [
+        "质感基础",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比"
+      ],
+      "material_note": "采用100%高海拔安第斯纯羊毛织造，用料扎实丰盈，保暖性极佳，468元价格性价比突出。",
+      "visual_note": "经典棕白横条纹配色，微落肩宽松版型搭配粗针罗纹领口，呈现温润自然的松弛质感。",
+      "shanghai_advice": "安第斯羊毛厚重，今日偏凉但非严寒，单穿易过热，建议作内搭或周末低温时穿。",
+      "ai_model": "gemini-3.6-flash",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "b6c3c744a291",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "仿羊羔绒运动宽腿裤/侧拼线加长款/加绒暖裤",
+      "price_cny": 149,
+      "price_note": "¥149 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075648/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075648",
+      "is_shoe": false,
+      "title_cn": "优衣库加绒运动宽腿裤",
+      "score": 8.2,
+      "style_tags": [
+        "松弛街头",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "采用仿羊羔绒加绒设计，内里保暖舒适，化纤混纺面料扎实耐磨，性价比高。",
+      "visual_note": "直筒宽腿版型带有侧拼线装饰，视觉上拉长腿部线条，复古运动风格浓郁。",
+      "shanghai_advice": "加绒宽腿裤保暖性过强，适合本周最低3.1℃的清晨或夜间，白天单穿略热。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "ae9c0054e219",
+      "brand": "MUJI",
+      "category": "外套大衣",
+      "title": "Men's Water Repellent Pocketable Jacket",
+      "price_cny": 268,
+      "price_note": "≈¥268 ($39)",
+      "material_raw": "Stay comfortable and dry during outdoor activities with this versatile hooded jacket, which is both water repellent and windproof. When not in use, it can be folded up for convenient and compact storage, making it a grea",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584235351_07_org.jpg?v=1763590033",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584235351_org.jpg?v=1763589980",
+      "url": "https://www.muji.us/products/mens-water-repellent-pocketable-jacket-bi02324a",
+      "is_shoe": false,
+      "title_cn": "无印良品防泼水便携夹克",
+      "score": 8.0,
+      "style_tags": [
+        "都市机能",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "选用高密度功能性化纤面料，具备出色的防泼水与防风性能，轻量化且便于收纳。",
+      "visual_note": "经典的连帽风衣廓形，剪裁利落流畅，深海军蓝配色低调沉稳，百搭且不挑人。",
+      "shanghai_advice": "防泼水夹克防风轻便，完美契合上海凉爽微风天气，是本周通勤首选外套。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "7c9c0e33f844",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "HEATTECH内衬手套/可触屏",
+      "price_cny": 99,
+      "price_note": "¥99 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075998/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075998",
+      "is_shoe": false,
+      "title_cn": "优衣库HEATTECH触屏手套",
+      "score": 8.3,
+      "style_tags": [
+        "质感基础",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "内里搭载优衣库标志性HEATTECH发热纤维，兼顾卓越保暖性与细腻亲肤触感。",
+      "visual_note": "纯色简约设计，指尖特殊触屏材质处理不突兀，深灰色系沉稳大方且极具实用性。",
+      "shanghai_advice": "HEATTECH手套保暖性强，适合本周最低3.1℃的清晨或夜间，白天单穿略热。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "c883ff8d5a13",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "HEATTECH防风手套/可触屏",
+      "price_cny": 99,
+      "price_note": "¥99 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075244/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075244",
+      "is_shoe": false,
+      "title_cn": "Uniqlo HEATTECH防风触屏手套",
+      "score": 8.0,
+      "style_tags": [
+        "极简通勤",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "运用HEATTECH发热保暖科技结合防风材质，指尖特殊处理支持触屏，兼顾温度与便利度。",
+      "visual_note": "军绿色低调沉稳，剪裁贴合手部轮廓，没有多余赘饰，属于百搭实用的冬日配饰。",
+      "shanghai_advice": "防风触屏手套适合低温时段，本周白天最高23.6℃时佩戴会闷热，建议备用。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "4cf83b008cea",
+      "brand": "MUJI",
+      "category": "休闲裤装",
+      "title": "Men's Stretchy Jersey Baker Trousers",
+      "price_cny": 201,
+      "price_note": "≈¥201 ($29)",
+      "material_raw": "These work pants are soft and comfy to wear, made using stretchy jersey material with a subtle herringbone pattern. The loose silhouette and adjustable elastic waist make these pants easy to wear, while maintaining a rel",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584570995_08_org.jpg?v=1763497798",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4550584570971_org.jpg?v=1763497798",
+      "url": "https://www.muji.us/products/mens-stretchy-jersey-baker-trousers-ae0zo25s",
+      "is_shoe": false,
+      "title_cn": "MUJI 弹力斜纹仿旧工装裤",
+      "score": 8.1,
+      "style_tags": [
+        "松弛街头",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用质地柔软且带有微弱人字纹的弹力针织面料，穿着舒适度极佳，兼顾工装外观与运动感。",
+      "visual_note": "宽松的直筒版型搭配松紧腰绳，修饰腿型之余自带慵懒随性的街头调性，深色沉稳好搭。",
+      "shanghai_advice": "弹力工装裤舒适透气，适配本周8-19℃气温，搭配风衣或夹克皆宜，日常百搭。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "c7ffa9251e57",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "HEATTECH防风手套/可触屏",
+      "price_cny": 99,
+      "price_note": "¥99 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075196/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075196",
+      "is_shoe": false,
+      "title_cn": "Uniqlo HEATTECH防风触屏手套",
+      "score": 8.0,
+      "style_tags": [
+        "极简通勤",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "搭载HEATTECH蓄热保暖科技与防风外层，指尖触屏导电布设计实用，性价比表现优异。",
+      "visual_note": "全黑色调百搭内敛，版型立体贴手，能够完美融入各类都市极简或机能风格的日常造型。",
+      "shanghai_advice": "蓄热防风手套适合本周最低3.1℃的清晨或夜间，白天单穿略热，建议备用。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-22 15:35 (UTC+8)"
+    },
+    {
+      "id": "bf3bcef12cce",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance Abzorb 1890 - Black / Silver Metallic / Black Cement",
+      "price_cny": 723,
+      "price_note": "≈¥723 ($108)",
+      "material_raw": "Abzorb 1890 silhouette Mesh upper Synthetic overlays Padded collar New Balance branding on the padded tongue and heel 'N' branding on the side panels 1890 branding on the ankle Flat cotton laces ABZORB midsole cushioning",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u189093h_nb_02_i.jpg?v=1794501721",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u189093h_nb_05_i.jpg?v=1794501721",
+      "url": "https://kith.com/products/nwbu189093h",
+      "is_shoe": true,
+      "title_cn": "New Balance 1890机能跑鞋",
+      "score": 8.2,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "透气网眼鞋面搭配大面积合成革与反光线条加固，搭载ABZORB缓震中底，用料扎实耐造。",
+      "visual_note": "流线型鞋楦搭配黑银金属色拼接，兼具浓郁的千禧复古运动风与现代都市机能感，日常百搭。",
+      "shanghai_advice": "透气网眼跑鞋轻便舒适，适合上海本周凉爽微风天气，兼顾运动与日常通勤。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "729a3d5ee8c1",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Brain Dead Zuperklimb - Preloved Brown / Auburn",
+      "price_cny": 1071,
+      "price_note": "≈¥1071 ($160)",
+      "material_raw": "adidas x Brain Dead Zuperklimb silhouette Suede and mesh upper Leather lining Padded collar Metal eyelets Co-branding patch on the padded tongue adidas Tri-Stripes on the side panels Brain Dead logo on the ankle Hiking-I",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Brown_KK2714_01_00_standard_hover.jpg?v=1795122731",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Brown_KK2714_04_standard.jpg?v=1795122731",
+      "url": "https://kith.com/products/aakk2714",
+      "is_shoe": true,
+      "title_cn": "Adidas x Brain Dead 联名户外徒步鞋",
+      "score": 8.5,
+      "style_tags": [
+        "松弛街头",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用优质麂皮与网眼拼接鞋面，内衬皮革，搭配金属鞋眼及联名鞋舌，质感扎实且耐造。",
+      "visual_note": "浓郁的复古户外配色，鞋楦饱满硬朗，标志性三条杠与Brain Dead细节极具辨识度。",
+      "shanghai_advice": "麂皮徒步鞋质感扎实，适配本周气温，防风耐磨，适合上海多变天气下的户外出行。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "ef54aed4e5b6",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 - Pearl Blue / Grisaille / Vanilla",
+      "price_cny": 1238,
+      "price_note": "≈¥1238 ($185)",
+      "material_raw": "XT-6 silhouette Synthetic upper Padded collar Salomon branding on the tongue Quicklace™ closure S-Lab XT branding on the side heel Removable OrthoLite® insole SensiFit™ + EndoFit™ cushioning Agile Chassis System for stab",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45472800SalomonXT-6PearlBlueGrisailleVanila_343_6e22141d-ec00-436f-8b5a-dc0d036c01df.jpg?v=1788273760",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45472800SalomonXT-6PearlBlueGrisailleVanila_344_1292261e-d832-4ded-8bf1-39a852cf1f92.jpg?v=1788273760",
+      "url": "https://kith.com/products/sall45472800",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 珍珠蓝机能运动鞋",
+      "score": 8.7,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "合成革与网眼鞋面，搭载Quicklace快速系带系统、OrthoLite鞋垫与AGILE底盘，用料专业。",
+      "visual_note": "经典的流线型鞋身结构，珍珠蓝与灰白色调高级清爽，机能美学与日常百搭完美平衡。",
+      "shanghai_advice": "机能运动鞋专业耐用，适合上海本周凉爽天气，抓地力强，应对微风及潜在降水。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "46b25a9849ff",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Brain Dead Zuperklimb - Core Black",
+      "price_cny": 1071,
+      "price_note": "≈¥1071 ($160)",
+      "material_raw": "adidas x Brain Dead Zuperklimb silhouette Suede and mesh upper Leather lining Padded collar Metal eyelets Co-branding patch on the padded tongue adidas Tri-Stripes on the side panels Brain Dead logo on the ankle Hiking-I",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Black_KK2715_01_00_standard_hover.jpg?v=1795122731",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Black_KK2715_04_standard_f90b35fd-5001-4d18-996c-675fdd20a16e.jpg?v=1795122730",
+      "url": "https://kith.com/products/aakk2715",
+      "is_shoe": true,
+      "title_cn": "Adidas x Brain Dead 联名户外鞋",
+      "score": 8.3,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "融合麂皮与网眼鞋面，配以皮革内衬及金属鞋带扣，Brain Dead联名字面与材质细节相当扎实。",
+      "visual_note": "户外鞋楦极具山系解构美感，独特的毛呢质感鞋面与锯齿大底层次分明，辨识度与搭配性兼具。",
+      "shanghai_advice": "联名户外鞋材质扎实，适配本周气温，防风耐磨，适合上海多变天气下的户外出行。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "ecc15060fa4f",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GTX - Black / Black / Asphalt",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "XT-6 GTX silhouette Synthetic upper GORE-TEX membrane Padded collar Salomon branding on the tongue and side panel quickLACE™ closure Molded OrthoLite® sockliner Mud contaGRIP® outsole Style: sall45416900 Color: Black / B",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45416900SalomonXT-6GTXBlackBlackAsphalt_51.jpg?v=1789059630",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45416900SalomonXT-6GTXBlackBlackAsphalt_52.jpg?v=1789059630",
+      "url": "https://kith.com/products/sall45416900",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GTX 全天候机能鞋",
+      "score": 8.8,
+      "style_tags": [
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "合成革鞋面搭载GORE-TEX防水薄膜，配合Quicklace快速系带系统与Mud Contagrip大底，用料顶级。",
+      "visual_note": "修长硬朗的鞋楦线条，全黑低调配色交织出极强的机能质感，完美游走于山野与都市街头之间。",
+      "shanghai_advice": "GTX防水鞋应对25%降水概率，适配本周气温，全天候保护，适合上海多变天气。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "e46d1543b2ae",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 1080v15 Pykrete - Digital Mist / Meteorite",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "1080v15 Pykrete silhouette Mesh upper Padded collar TPU top eyelets New Balance 1080 branding on the padded tongue 'N' logo on the side panels, vamp, and toe box Flat cotton laces New Balance logo branding at the heel In",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/m108020e_nb_02_i_2d7233e2-034b-4060-a204-f26b28770b32.jpg?v=1793370919",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/m108020e_nb_05_i_a138d351-05d5-4fce-9c47-b1f39a91dde9.jpg?v=1793370919",
+      "url": "https://kith.com/products/nwbm108020e",
+      "is_shoe": true,
+      "title_cn": "New Balance 1080v15科技跑鞋",
+      "score": 8.2,
+      "style_tags": [
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "轻量透气网眼鞋面搭配加厚TPU眼扣与缓震大底，工艺扎实，兼顾舒适脚感与现代机能质感。",
+      "visual_note": "流畅饱满的流线型鞋楦搭配数字雾蓝渐变配色，极具未来科技感，日常Clean Fit搭配极佳。",
+      "shanghai_advice": "轻量透气跑鞋舒适度高，适合上海本周凉爽微风天气，兼顾运动与日常通勤。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "17bff82203dc",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Air Max 95 Big Bubble Premium - Black / Dark Smoke Grey / Smoke Grey / Chrome Yellow",
+      "price_cny": 1271,
+      "price_note": "≈¥1271 ($190)",
+      "material_raw": "Air Max 95 Big Bubble Premium silhouette Synthetic leather and mesh upper Padded collar Paneled construction Air Max branding on the tongue Webbing lacing system Tinted lace loops Mini Swoosh embroidery on the lateral an",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIQ0229-001NikeAIRMAX95BatmanBlackBlack-TeamRoyal_b42ee3da-55f9-40c4-b313-cb341bb8aaa7.jpg?v=1794599874",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIQ0229-001NikeAIRMAX95BatmanBlackBlack-TeamRoyal1_98f26039-0f98-4d4a-95c5-9daf4b21136b.jpg?v=1794599874",
+      "url": "https://kith.com/products/nikiq0229-001",
+      "is_shoe": true,
+      "title_cn": "Nike Air Max 95复古气垫运动鞋",
+      "score": 8.5,
+      "style_tags": [
+        "复古运动"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "采用合成皮革与网眼拼接鞋面，标志性可视大容量Air Max气垫组合，用料扎实且层次丰富。",
+      "visual_note": "经典的渐变侧面线条与铬黄色点缀形成强烈视觉反差，人体肋骨仿生学鞋楦极具辨识度与复古张力。",
+      "shanghai_advice": "复古气垫鞋层次丰富，适配本周气温，缓震舒适，适合上海多变天气下的日常穿搭。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "600133ea77d0",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Brain Dead Zuperklimb - Blue / Green / Black",
+      "price_cny": 1071,
+      "price_note": "≈¥1071 ($160)",
+      "material_raw": "adidas x Brain Dead Zuperklimb silhouette Suede and mesh upper Leather lining Padded collar Metal eyelets Co-branding patch on the padded tongue adidas Tri-Stripes on the side panels Brain Dead logo on the ankle Hiking-I",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Blue_KK2716_01_00_standard_hover.jpg?v=1795122757",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/ZUPERKLIMB_BRAIN_DEAD_Shoes_Blue_KK2716_04_standard.jpg?v=1795122758",
+      "url": "https://kith.com/products/aakk2716",
+      "is_shoe": true,
+      "title_cn": "Adidas x Brain Dead联名户外徒步鞋",
+      "score": 8.7,
+      "style_tags": [
+        "松弛街头",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "奢华的麂皮与高强度网眼拼接，搭配真皮内衬与金属鞋眼，用料考究且具备顶级户外工艺质感。",
+      "visual_note": "深蓝绿色调极具山系美学，重组解构的户外鞋楦搭配联名细节，完美平衡街头潮流与专业徒步性能。",
+      "shanghai_advice": "奢华户外鞋工艺考究，适配本周气温，防风耐磨，适合上海多变天气下的户外出行。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "bbbe06e0482e",
+      "brand": "Uniqlo",
+      "category": "衬衫卫衣",
+      "title": "摇粒绒纽扣半开领套头衫/长袖",
+      "price_cny": 129,
+      "price_note": "¥129 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075653/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075653",
+      "is_shoe": false,
+      "title_cn": "优衣库摇粒绒纽扣半开领套头衫",
+      "score": 8.2,
+      "style_tags": [
+        "质感基础",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "采用定番摇粒绒化纤材质，虽然并非天然面料，但面料扎实抗风，在这个价位段具备极高的保暖实用价值。",
+      "visual_note": "半开领设计富有层次，深色调沉稳百搭，微宽松版型包容性强，单穿或叠穿都能展现利落的都市休闲感。",
+      "shanghai_advice": "摇粒绒套头衫保暖性强，适合本周最低3.1℃的清晨或夜间，白天单穿略热。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "6a5656be8d28",
+      "brand": "MUJI",
+      "category": "衬衫卫衣",
+      "title": "Flannel Shirt",
+      "price_cny": 401,
+      "price_note": "≈¥401 ($59)",
+      "material_raw": "A cozy men's flannel shirt that you'll want to wear all-day during the fall and winter months. The special brushing process of the fabric gives it a unique soft texture that will keep you warm and comfortable. Regular fi",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315789184_06_org.jpg?v=1761748468",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315789184_org_43eae11e-87f6-454c-9e35-41ea1fc15b19.jpg?v=1761748468",
+      "url": "https://www.muji.us/products/flannel-shirt-ac20r25a",
+      "is_shoe": false,
+      "title_cn": "无印良品磨毛法兰绒长袖衬衫",
+      "score": 8.1,
+      "style_tags": [
+        "质感基础",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "精选优质纯棉经过双面磨毛工艺处理，表面呈现细腻绒感，触感软糯温润，保暖性与亲肤度远超普通棉衬衫。",
+      "visual_note": "标准常规版型剪裁克制，深海军蓝配色低调内敛，单穿显干练，展现出一种不费力的日系极简高级感。",
+      "shanghai_advice": "磨毛法兰绒衬衫触感温润，适配本周8-19℃气温，作内搭或单穿皆舒适得体。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "19c1b73d05be",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 750 - White / Navy",
+      "price_cny": 669,
+      "price_note": "≈¥669 ($100)",
+      "material_raw": "750 silhouette Canvas and leather upper Padded collar New Balance branding on the tongue 'N' logo on the side panel Flat cotton laces Rubber outsole Style: nwbu7507a0 Color: White / Navy Material: Canvas / Leather",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u7507a0_nb_02_i.jpg?v=1793296403",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u7507a0_nb_05_i.jpg?v=1793296403",
+      "url": "https://kith.com/products/nwbu7507a0",
+      "is_shoe": true,
+      "title_cn": "New Balance 750白蓝拼接休闲鞋",
+      "score": 8.4,
+      "style_tags": [
+        "复古运动",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "鞋面采用帆布与优质皮革拼接，兼顾了轻量透气性与侧向支撑力，橡胶大底耐磨防滑，整体做工扎实可靠。",
+      "visual_note": "鞋楦修长流畅，白蓝经典撞色清爽耐看，大侧标N字极具辨识度，完美契合当下流行的Clean Fit日常百搭风格。",
+      "shanghai_advice": "帆布皮革拼接鞋轻量透气，适合上海本周凉爽微风天气，兼顾支撑与日常百搭。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "d24e11091629",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "柔软绵羊毛立领针织开衫",
+      "price_cny": 249,
+      "price_note": "¥249 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075833/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075833",
+      "is_shoe": false,
+      "title_cn": "Uniqlo U 绵羊毛立领开衫",
+      "score": 8.3,
+      "style_tags": [
+        "极简通勤",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比"
+      ],
+      "material_note": "选用优质绵羊毛材质，触感软糯厚实，兼具优秀的保暖性能与极高的质价比。",
+      "visual_note": "高领门襟与立体廓形剪裁利落，米白色调温润高级，具备极强的大牌静奢既视感。",
+      "shanghai_advice": "绵羊毛开衫厚实保暖，适合本周最低3.1℃的清晨或夜间，白天单穿略热。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "c319803900c2",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 740 - Mushroom / Timberwolf",
+      "price_cny": 770,
+      "price_note": "≈¥770 ($115)",
+      "material_raw": "740 silhouette Mesh upper Synthetic overlays Padded collar TPU eyelets NB logo on the padded tongue and heel 740 branding on ankle 'N' logo on the side panel Flat cotton laces ABZORB midsole Rubber outsole Style: nwbu740",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u7409hk_nb_02_i.jpg?v=1793296405",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u7409hk_nb_04_i.jpg?v=1793296406",
+      "url": "https://kith.com/products/nwbu7409hk",
+      "is_shoe": true,
+      "title_cn": "New Balance 740 复古慢跑鞋",
+      "score": 8.5,
+      "style_tags": [
+        "复古运动",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "网眼布与合成革拼接鞋面，搭载经典 ABZORB 中底，兼顾透气轻量与舒适脚感。",
+      "visual_note": "大地色系蘑菇灰配色复古百搭，鞋楦线条流畅，完美契合时下流行的 Clean Fit 风格。",
+      "shanghai_advice": "复古慢跑鞋透气舒适，适合上海本周凉爽微风天气，兼顾运动与日常通勤。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "4e7e327b85f7",
+      "brand": "MUJI",
+      "category": "衬衫卫衣",
+      "title": "Wool Crewneck T-Shirt",
+      "price_cny": 201,
+      "price_note": "≈¥201 ($29)",
+      "material_raw": "This men's crewneck t-shirt is soft and cozy, made from lightweight wool blended material. The thin wool material ensures warmth for versatile styling on its own or as a layering piece on chilly days. Item Size Chart Siz",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315476855_05_org.jpg?v=1761763046",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315476855_org_7a74780b-a201-4993-9fd3-a58d219df8e6.jpg?v=1761763046",
+      "url": "https://www.muji.us/products/wool-crew-neck-t-shirt-ab1oz25a",
+      "is_shoe": false,
+      "title_cn": "MUJI 羊毛混纺圆领打底衫",
+      "score": 8.2,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "选用轻量化羊毛混纺面料，兼顾了羊毛的天然温润触感与基础针织的轻盈度，性价比和质感均表现优秀。",
+      "visual_note": "经典基础圆领卫衣版型，剪裁利落纯粹，百搭的深色系呈现出低调内敛的日系极简通勤美学。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "18a21bf3b72d",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Kobe 3 Low Protro - Safety Orange / Sundial / Picante Red",
+      "price_cny": 1271,
+      "price_note": "≈¥1271 ($190)",
+      "material_raw": "Kobe 3 Low Protro silhouette Mesh upper Padded collar TPU cage Leather toe box Nike branding at the toe Kobe Sheath logo on the tongue Reflective accents Flat cotton laces Swoosh and Kobe Sheath on the heel Full-length A",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IO6260-800_PHSRH000-2000_f2381e00-8069-4d42-921a-0bdfb71f01e4.jpg?v=1793308382",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IO6260-800_PHCFH001-2000_8d3876b5-5247-4b62-8a89-a5c7c6e753f5.jpg?v=1793308382",
+      "url": "https://kith.com/products/nikio6260-800",
+      "is_shoe": true,
+      "title_cn": "Nike Kobe 3 Low Protro 实战篮球鞋",
+      "score": 8.3,
+      "style_tags": [
+        "复古运动",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "采用透气网眼鞋面结合TPU支撑笼与皮革鞋头，辅以全掌缓震科技，用料扎实且兼顾专业运动性能。",
+      "visual_note": "亮眼的橙黄与绿松石色撞色极具辨识度，低帮流线型鞋楦比例犀利，整体充满强烈的速度感与机能美学。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "ce3b26435251",
+      "brand": "UR",
+      "category": "休闲裤装",
+      "title": "Drawstring Waist Cotton Blend Wide-leg Pants",
+      "price_cny": 374,
+      "price_note": "≈¥374 ($55)",
+      "material_raw": "These charcoal wide-leg trousers blend relaxed volume with a sculpted, architectural silhouette, elevating everyday elegance for urban occasions. Crafted from a premium cotton blend, they offer enduring comfort and a cle",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV660069BA1_2_60d41a11-b5ef-4ebb-819f-e9f95fec9881.jpg?v=1790585624",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV660069BA1_1_4a9d4942-dd1f-472e-aac5-df9d428ac802.jpg?v=1790585624",
+      "url": "https://global.urbanrevivo.com/products/drawstring-waist-cotton-blend-wide-leg-pants-uuv660069",
+      "is_shoe": false,
+      "title_cn": "UR宽腿抽绳棉混纺休闲裤",
+      "score": 8.2,
+      "style_tags": [
+        "极简通勤",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "精选高支棉混纺，含少量弹性纤维提升垂感与舒适度，天然面料比例高。",
+      "visual_note": "宽腿剪裁配抽绳腰头，垂坠感强，深炭灰色调低调高级，适合日常通勤。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "dde360f45d1e",
+      "brand": "MUJI",
+      "category": "毛衣针织",
+      "title": "Wool Crewneck Sweater",
+      "price_cny": 334,
+      "price_note": "≈¥334 ($49)",
+      "material_raw": "This men's crew neck sweater is soft and cozy, made from fine, durable high-gauge wool thread that is smooth on the skin. The thin wool material ensures warmth for versatile styling on its own or as a layering piece on c",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315719198_05_org.jpg?v=1756748598",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315719198_org.jpg?v=1756748523",
+      "url": "https://www.muji.us/products/wool-crew-neck-sweater-aa0ua25a",
+      "is_shoe": false,
+      "title_cn": "无印良品细羊毛圆领毛衣",
+      "score": 8.5,
+      "style_tags": [
+        "老钱静奢",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "使用细羊毛高支纱线，100%天然羊毛，柔软保暖且手感细腻，无化纤掺杂。",
+      "visual_note": "圆领简约，略修身版型，灰色低调配色，质感细腻，适合层次叠穿。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "a9f7ff3ac796",
+      "brand": "Uniqlo",
+      "category": "休闲裤装",
+      "title": "弹力长裤/内里起毛加绒暖裤",
+      "price_cny": 249,
+      "price_note": "¥249 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000075645/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000075645",
+      "is_shoe": false,
+      "title_cn": "优衣库弹力加绒保暖长裤",
+      "score": 8.0,
+      "style_tags": [
+        "都市机能",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "主体为棉纤混纺，内里加绒起毛，兼具天然棉的舒适与合成绒的保暖。",
+      "visual_note": "弹力面料贴合腿型，深灰色配加绒内里，版型修身且保暖，适合日常。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "openai/gpt-oss-120b (纯文本兜底)",
+      "added_at": "2026-11-21 15:47 (UTC+8)"
+    },
+    {
+      "id": "492ecf95ccd5",
+      "brand": "Uniqlo",
+      "category": "外套大衣",
+      "title": "无缝羽绒大衣",
+      "price_cny": 899,
+      "price_note": "¥899 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076543/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076543",
+      "is_shoe": false,
+      "title_cn": "Uniqlo 无缝羽绒大衣",
+      "score": 8.5,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "高性价比"
+      ],
+      "material_note": "采用无缝热压工艺减少跑绒，外层具备防泼水功能，填充优质羽绒，兼顾轻量化与扎实的物理保暖性能。",
+      "visual_note": "中长款连帽廓形利落干练，纯色极简设计没有多余累赘，视觉上沉稳大气，百搭且不挑身材。",
+      "shanghai_advice": "气温偏低时可选，日常略显厚重，建议换薄外套。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "cf0170686491",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 1890P - Pumpernickel / Navy",
+      "price_cny": 1205,
+      "price_note": "≈¥1205 ($180)",
+      "material_raw": "1890P silhouette Mesh upper Synthetic overlays Padded collar New Balance logo branding on the padded tongue and heel 'N' logo on the side panels Flat cotton laces 1890 branding at the ankle ABZORB heel cushioning Rubber ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u1890208_nb_02_i.jpg?v=1790886414",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u1890208_nb_05_i.jpg?v=1790886415",
+      "url": "https://kith.com/products/nwbu1890208",
+      "is_shoe": true,
+      "title_cn": "New Balance 1890P 复古跑鞋",
+      "score": 8.2,
+      "style_tags": [
+        "复古运动",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "透气网眼鞋面搭配合成革与麂皮质感拼接，搭载标志性ABZORB缓震中底，用料扎实且兼顾脚感与支撑力。",
+      "visual_note": "浓郁的复古机能鞋楦比例，深咖与海军蓝撞色层次丰富，完美契合当下流行的Clean Fit山系风格。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "207273fb9f99",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Snowclog OG - Cyber Yellow / Black",
+      "price_cny": 836,
+      "price_note": "≈¥836 ($125)",
+      "material_raw": "Snowclog OG silhouette Suede and leather upper Padded collar Salomon logo on the side panel Salomon logo patch on the heel Heel pull Terrain contaGRIP® infiniFOAM midsole Rubber outsole Slip-on style Style: sall45390000 ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45390000SalomonSNOWCLOGOGCYBERYELLOWBLACKBLA.jpg?v=1792593940",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45390000SalomonSNOWCLOGOGCYBERYELLOWBLACKBLA1.jpg?v=1792593940",
+      "url": "https://kith.com/products/sall45390000",
+      "is_shoe": true,
+      "title_cn": "Salomon 抓绒麂皮一体式户外鞋",
+      "score": 8.3,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "鞋面由麂皮与皮革拼接，搭载infiniFOAM中底及ContaGrip橡胶大底，兼顾触感质感与抓地耐磨性。",
+      "visual_note": "高饱和度黄黑撞色极具视觉张力，齿轮状厚底与一脚蹬鞋型兼具户外机能感与极佳的日常辨识度。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "668cc19a8f2b",
+      "brand": "Uniqlo",
+      "category": "外套大衣",
+      "title": "无缝羽绒大衣",
+      "price_cny": 999,
+      "price_note": "¥999 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076523/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076523",
+      "is_shoe": false,
+      "title_cn": "Uniqlo 无缝连帽羽绒大衣",
+      "score": 8.5,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "高性价比"
+      ],
+      "material_note": "采用无缝压胶工艺减少钻绒，充绒量扎实，防风防水机能布料与内部羽绒黄金组合，保暖性能优秀。",
+      "visual_note": "中长款直筒廓形利落干练，去除了传统羽绒服的臃肿感，深灰色调低调内敛，兼顾商务通勤与日常休闲。",
+      "shanghai_advice": "气温偏低时可选，日常略显厚重，建议换薄外套。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "20171d823a12",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Wales Bonner Adizero Adios Suede - Wonder White / Dark Brown / Chalk White",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "adidas x Wales Bonner Adizero Adios Suede silhouette Suede and leather upper Padded collar adidas Wales Bonner branding on the tongue Wales Bonner ankle Flat cotton laces adidas Trefoil branding on the heel Rubber outsol",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/adidas-wales-bonner-adizero-adios-wonder-white-kk0774-lateral_1100x_edc36cb8-9d33-4017-a4ba-a99d17420f3c.jpg?v=1793213716",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/adidas-wales-bonner-adizero-adios-wonder-white-kk0774-front-three-quarter_1100x_484d9f24-89fa-4dbb-8d43-bf13f02d865a.jpg?v=1793213716",
+      "url": "https://kith.com/products/aakk0774",
+      "is_shoe": true,
+      "title_cn": "adidas x Wales Bonner Adizero 麂皮跑鞋",
+      "score": 8.8,
+      "style_tags": [
+        "复古运动",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "优质麂皮与真皮拼接鞋面，搭配标志性手工感车线细节，用料扎实且联名工艺水准极高。",
+      "visual_note": "修长低帮马拉松鞋楦比例极佳，奶白与浅棕撞色高级克制，兼具复古运动与静奢质感。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "c01196653b2a",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Quasar Advanced – Black / Sedona Sage / Astral Aura",
+      "price_cny": 1124,
+      "price_note": "≈¥1124 ($168)",
+      "material_raw": "Quasar Advanced silhouette Textile and synthetic upper Speed lacing system with cord-lock closure Padded collar Front pull tab OrthoLite® sockliner Advanced Chassis™ system Visible EVA midsole Contagrip® rubber outsole w",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SLL47853700-Front.jpg?v=1762801498",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SLL47853700-Back.jpg?v=1762801498",
+      "url": "https://kith.com/products/sll47853700",
+      "is_shoe": true,
+      "title_cn": "Salomon Quasar Advanced 黑灰机能鞋",
+      "score": 8.1,
+      "style_tags": [
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "织物与合成材质鞋面，配备快速系带系统、Advanced Chassis底盘及Contagrip耐磨大底，功能性强。",
+      "visual_note": "流线型越野轮廓搭配深灰黑渐变编织纹理，机能感纯粹利落，适配都市户外与暗黑穿搭。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "a1c5d05a7217",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Wales Bonner Gazelle Croc - Crystal Sky / Green Night / Power Blue",
+      "price_cny": 1472,
+      "price_note": "≈¥1472 ($220)",
+      "material_raw": "adidas x Wales Bonner Gazelle Croc silhouette Croc-pattern leather upper Padded collar adidas Wales Bonner branding on the tongue Flat cotton laces adidas Trefoil branding on the heel and outsole Leather lining Gum rubbe",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK0735_b2b012_plp.jpg?v=1793213716",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK0735_b2b062_pdp.jpg?v=1793213716",
+      "url": "https://kith.com/products/aakk0735",
+      "is_shoe": true,
+      "title_cn": "Adidas x Wales Bonner 联名休闲鞋",
+      "score": 8.5,
+      "style_tags": [
+        "老钱静奢",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用优质鳄鱼纹压花皮革鞋面，内衬皮革包裹，搭配复古生胶大底与精细车缝线，用料考究。",
+      "visual_note": "修长优雅的经典鞋楦，深绿与水晶蓝皮革碰撞复古生胶底，尽显高级静奢美学与质感层次。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "6a47f2a93e79",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Mens Snowclog OG Shoes",
+      "price_cny": 836,
+      "price_note": "≈¥836 ($125)",
+      "material_raw": "Pearl Blue / Black / Asphalt Sneakers Soft, premium water-resistant suede leather upper Warm felt inner with fleece cuff Bungee lacing and easy slip-on construction InfiniFOAM midsole for cushioned comfort All-Terrain Co",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0236/4333/files/L49178000-1_8de20979-4308-49e8-9033-4635deb8838f.jpg?v=1789595495",
+      "model_img": "https://cdn.shopify.com/s/files/1/0236/4333/files/L49178000-2.jpg?v=1789595596",
+      "url": "https://extrabutterny.com/products/salomon-mens-snowclog-og-shoes-l49178000",
+      "is_shoe": true,
+      "title_cn": "Salomon雪地低帮休闲鞋",
+      "score": 8.5,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用优质防水麂皮鞋面拼接，内衬保暖抓绒与质感内里，搭载InfiniFOAM泡棉中底与全地形大底，兼顾防水与御寒性能。",
+      "visual_note": "珍珠蓝黑配色高级耐看，一脚蹬懒人结构搭配锯齿状厚底，线条利落且极具户外机能感，日常百搭不沉闷。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "92b353b19672",
+      "brand": "MUJI",
+      "category": "衬衫卫衣",
+      "title": "Flannel Stand Collar Shirt",
+      "price_cny": 401,
+      "price_note": "≈¥401 ($59)",
+      "material_raw": "A cozy men's flannel shirt that you'll want to wear all-day during the fall and winter months. The special brushing process of the fabric gives it a unique soft texture that will keep you warm and comfortable. Regular fi",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315950256_06_org.jpg?v=1759775535",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315950256_org_f5bce5f0-6542-4d30-ab9c-09dda100e9cb.jpg?v=1759775535",
+      "url": "https://www.muji.us/products/flannel-stand-collar-shirt-ac21125a",
+      "is_shoe": false,
+      "title_cn": "MUJI立领磨毛纯棉衬衫",
+      "score": 8.1,
+      "style_tags": [
+        "极简通勤",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "选用优质纯棉法兰绒面料，经过特殊双面磨毛工艺处理，触感软糯亲肤，天然材质兼具良好的保暖与透气性。",
+      "visual_note": "利落的立领设计替代传统翻领，带来东方禅意与极简通勤感，纯净白色百搭纯粹，版型规整挺括。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "8d2667026d52",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 1890 - White / Silver Metallic / Black",
+      "price_cny": 1205,
+      "price_note": "≈¥1205 ($180)",
+      "material_raw": "1890 silhouette Synthetic upper Padded collar New Balance branding on the tongue and heel 'N' branding on the side panels 1890 branding on the ankle Flat cotton laces ABZORB midsole cushioning Rubber outsole Style: nwbu1",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/1_640x_11dee19b-eaa4-408e-9ad0-aceb04c53604.jpg?v=1793371017",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/3_640x_a9df6181-9087-4d82-8849-0414c30dd94a.jpg?v=1793371017",
+      "url": "https://kith.com/products/nwbu189032l",
+      "is_shoe": true,
+      "title_cn": "New Balance 1890复古运动鞋",
+      "score": 8.7,
+      "style_tags": [
+        "复古运动",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "鞋面采用合成革与大面积透气网布拼接，搭载经典ABZORB缓震中底与橡胶大底，脚感舒适，做工扎实。",
+      "visual_note": "白银黑配色极具千禧年代复古跑鞋美学，鞋楦修长流畅，侧边N字与银色线条层次丰富，Clean Fit风格天花板。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "18cb7a5116e9",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x SATISFY Adizero Adios Pro Evo 2 - Silver Metallic / Grey Two",
+      "price_cny": 4015,
+      "price_note": "≈¥4015 ($600)",
+      "material_raw": "adidas x SATISFY Adizero Adios Pro Evo 2 silhouette Textile upper Padded collar ADIZERO branding on the tongue Tri-Stripe branding on the side panel ADIZERO ADIOS branding on the ankle SATISFY logo on the toe Flat laces ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KH6636_b2b012_plp_2f8a004b-3d3b-40fa-90c3-2dbbf4e90f40.jpg?v=1793308383",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KH6636_b2b072_pdp_49da1fea-bb2a-47a6-918a-44d75e6838ed.jpg?v=1793308383",
+      "url": "https://kith.com/products/aakh6636",
+      "is_shoe": true,
+      "title_cn": "adidas x SATISFY 联名跑鞋",
+      "score": 8.5,
+      "style_tags": [
+        "都市机能",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "轻量化高强度纺织鞋面与顶级碳板缓震科技，融合前沿解构工艺，材质与科技溢价极高。",
+      "visual_note": "银灰色半透明流线鞋楦配合夸张厚底，未来感与专业跑步美学兼具，视觉极具冲击力。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "a3e9cdbf4d57",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Mens XT-EVO Shoes",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "Black / Fiery Red / White Sneakers Multi-layered synthetic and textile upper quickLACE™ one-pull lacing system sensiFIT™ construction for a secure fit endoFit™ internal sleeve for a snug feel agileCHASSIS™ provides stabi",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0236/4333/files/L49177900-1.jpg?v=1790205654",
+      "model_img": "https://cdn.shopify.com/s/files/1/0236/4333/files/L49177900-2.jpg?v=1790205654",
+      "url": "https://extrabutterny.com/products/salomon-mens-xt-evo-shoes-l49177900",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-EVO 户外徒步鞋",
+      "score": 8.2,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "多层合成革与织物拼接鞋面，搭载QuickLace快速系带系统与Agile底盘，耐磨实用。",
+      "visual_note": "黑红渐变配色极具侵略性，流线型鞋楦搭配复杂的机能线条，山系硬汉风格拉满。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "9040824edc24",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x SATISFY Adizero Adios 9 - Brown / Pearl Metallic / Charcoal",
+      "price_cny": 1071,
+      "price_note": "≈¥1071 ($160)",
+      "material_raw": "adidas x SATISFY Adizero Adios 9 silhouette Textile upper Padded collar ADIZERO branding on the tongue Tri-Stripe branding on the side panel ADIZERO ADIOS branding on the ankle SATISFY logo on the toe Flat laces Lightstr",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KH6682_b2b012_plp_aee23637-e802-4d3b-a5c5-fa478be38424.jpg?v=1793308666",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KH6682_b2b192_pdp_1cd4bdda-d88a-4873-b420-eaab99848830.jpg?v=1793308666",
+      "url": "https://kith.com/products/aakh6682",
+      "is_shoe": true,
+      "title_cn": "adidas x SATISFY Adizero Adios 9 联名跑鞋",
+      "score": 8.1,
+      "style_tags": [
+        "都市机能",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "轻量化机能织物鞋面结合Lightstrike缓震中底，联名工艺细节到位，但面料偏薄且无防水涂层。",
+      "visual_note": "大地棕灰配珍珠金属色三道杠极具高级感，低帮竞速鞋楦凌厉修长，潮流辨识度与百搭度俱佳。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "68731b599d24",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GORE-TEX - Black / Silver",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "XT-6 GORE-TEX silhouette Synthetic and textile upper Padded collar Metal and nylon eyelets Gore-Tex branding on the toe S logo patch and Salomon branding nylon stripe on the tongue Webbing lacing system Laces with toggle",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL47450600SalomonXt6GtxBlackBlackFtwSilver_3195_f4d7a293-a39e-4628-a760-035e744f07a9.jpg?v=1769449670",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SL47450600SalomonXt6GtxBlackBlackFtwSilver_3196_c23599cd-e7a5-41e8-9299-cfa6c7bee8f3.jpg?v=1769449670",
+      "url": "https://kith.com/products/sl47450600",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GORE-TEX 黑银机能越野鞋",
+      "score": 8.7,
+      "style_tags": [
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "搭载GORE-TEX防水膜与高强度合成织物，配合金属鞋眼及Quicklace快穿系统，硬核用料匹配定价。",
+      "visual_note": "黑银经典配色冷冽犀利，鞋身骨架拼接层次丰富，修长越野鞋楦完美契合都市机能与Clean Fit。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "cc2f89e2e79e",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "羊毛混纺针织茄克",
+      "price_cny": 399,
+      "price_note": "¥399 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076237/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076237",
+      "is_shoe": false,
+      "title_cn": "Uniqlo C 羊毛混纺针织茄克",
+      "score": 8.5,
+      "style_tags": [
+        "老钱静奢",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用羊毛混纺针织材质，兼具保暖性与一定骨感，定价亲民，性价比高。",
+      "visual_note": "无领V区线条利落，搭配大贴袋与松弛廓形，呈现低调高级的静奢时髦感。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "4bdbfe7016e3",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance 1906A - Sea Salt / Altitude Metallic",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "1906A silhouette Mesh upper Synthetic overlays Padded collar Perforation on toe NB logo branding on the padded tongue N logo on side panels with NLock mechanism 1906A branding on ankle N logo on the toe Classic flat lace",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/new-balance-1906a-sea-salt_1e3f913e-b151-4501-8242-0bc9a239bb64.jpg?v=1793370980",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/new-balance-1906a-sea-salt_1_f6bea37d-962e-456a-a03f-dd66ad7f482d.jpg?v=1793370981",
+      "url": "https://kith.com/products/nwbu19065ic",
+      "is_shoe": true,
+      "title_cn": "New Balance 1906A 银蓝解构复古跑鞋",
+      "score": 8.8,
+      "style_tags": [
+        "复古运动",
+        "都市机能"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "网眼鞋面搭配合成革与N-Lock支撑系统，层次丰富，大底耐磨抗造。",
+      "visual_note": "1906A解构鞋型线条极具张力，海盐白与金属银蓝配色复古未来感十足。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 17:12 (UTC+8)"
+    },
+    {
+      "id": "b2a01045e299",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance Made in USA 992 - Black / Turtledove / Navy",
+      "price_cny": 1405,
+      "price_note": "≈¥1405 ($210)",
+      "material_raw": "Made in USA 992 silhouette Mesh upper Leather and synthetic overlays Padded collar TPU eyelets New Balance 992 logo on the tongue 'N' logo on the side panels Flat cotton laces USA embroidered on the heel Reflective accen",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u992lb_nb_05_i.jpg?v=1795036885",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u992lb_nb_03_i.jpg?v=1795036885",
+      "url": "https://kith.com/products/nwbu992lb",
+      "is_shoe": true,
+      "title_cn": "New Balance美产992复古跑鞋",
+      "score": 8.6,
+      "style_tags": [
+        "复古运动",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "美产992经典规格，优质皮革拼接透气网面，走线扎实且中底缓震配置成熟耐穿。",
+      "visual_note": "黑、奶白与海军蓝撞色层次丰富，鞋楦饱满复古，轻松驾驭Clean Fit与街头造型。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "c4f665d37574",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Snowclog OG - Black / Asphalt",
+      "price_cny": 836,
+      "price_note": "≈¥836 ($125)",
+      "material_raw": "Snowclog OG silhouette Suede and leather upper Padded collar Salomon logo on the side panel Salomon logo patch on the heel Heel pull Terrain contaGRIP® infiniFOAM midsole Rubber outsole Slip-on style Style: sall45389900 ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45389900SalomonSNOWCLOGOGBLACKBLACKASPHALT.jpg?v=1792593915",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/SALL45389900SalomonSNOWCLOGOGBLACKBLACKASPHALT1.jpg?v=1792593915",
+      "url": "https://kith.com/products/sall45389900",
+      "is_shoe": true,
+      "title_cn": "Salomon Snowclog OG 黑色一脚蹬",
+      "score": 8.4,
+      "style_tags": [
+        "都市机能",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "采用麂皮与皮革拼接鞋面，搭配contaGRIP大底与infiniFOAM中底，800余元价位用料扎实。",
+      "visual_note": "一脚蹬廓形结合粗犷锯齿大底，全黑配色低调百搭，兼具山系机能与极简慵懒感，鞋楦比例极佳。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "e5eb7abd5d30",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Air Max 90 SP - Black",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "Air Max 90 SP silhouette Leather upper Padded collar Nike-branded patch on the tongue Swoosh on the side panels Perforations near the lace bed Flat laces Nike Air branding on the back heel Visible Max Air cushioning Rubb",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIV4504-001NikeAIRMAX90PUFFYBLACKBLACK-BLACK.jpg?v=1794517052",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/NIKIV4504-001NikeAIRMAX90PUFFYBLACKBLACK-BLACK1.jpg?v=1794517052",
+      "url": "https://kith.com/products/nikiv4504-001",
+      "is_shoe": true,
+      "title_cn": "Nike Air Max 90 SP 全黑皮革版",
+      "score": 8.1,
+      "style_tags": [
+        "复古运动",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "全鞋身采用头层皮革材质包裹，质感扎实且易打理，搭配经典可视Max Air气垫。",
+      "visual_note": "经典AM90鞋型比例协调，纯黑配色极具整体感，无论是Clean Fit还是街头风都能轻松驾驭。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "ad10b2e95612",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Bad Bunny BadBo 1.0 - Grey Three / Cloud White / Orbit Grey",
+      "price_cny": 1071,
+      "price_note": "≈¥1071 ($160)",
+      "material_raw": "adidas x Bad Bunny BadBo 1.0 silhouette Suede overlays Leather underlays Neoprene tongue Padded collar TPU eyelets Rounded toebox Perforated on the side and toe box Embroidered heel graphic on the padded tongue Rope lace",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/LC5290_b2b015_pdp_cd3d009c-a2a2-497e-9f8e-5b3b358d7c5d.jpg?v=1794428840",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/LC5290_b2b062_pdp_5ea69c3b-04c0-4083-8a18-2a73692f138a.jpg?v=1794428841",
+      "url": "https://kith.com/products/aalc5290",
+      "is_shoe": true,
+      "title_cn": "Adidas x Bad Bunny BadBo 1.0",
+      "score": 8.4,
+      "style_tags": [
+        "松弛街头",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "麂皮覆面搭配皮革内衬与氯丁橡胶鞋舌，多材质拼接工艺扎实，千元出头联名诚意较足。",
+      "visual_note": "深浅灰与米白拼接层次感极强，圆润复古的滑板鞋轮廓自带松弛感，配色高级且百搭。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "6cf60795dfa5",
+      "brand": "Nike",
+      "category": "精选鞋履",
+      "title": "Nike Air Max 90 SP - Dark Russet / Mesa Orange",
+      "price_cny": 1138,
+      "price_note": "≈¥1138 ($170)",
+      "material_raw": "Air Max 90 SP silhouette Leather upper Padded collar Perforated tongue and heel TPU eyelets Nike branding on the tongue Embossed Swoosh on side panels Flat cotton laces Visible sole unit Foam midsole Rubber outsole Style",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV4504-200_PHSRH001-2000.jpg?v=1794517054",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IV4504-200_PHCFH001-2000.jpg?v=1794517054",
+      "url": "https://kith.com/products/nikiv4504-200",
+      "is_shoe": true,
+      "title_cn": "Nike Air Max 90 SP 全皮赤陶棕",
+      "score": 8.1,
+      "style_tags": [
+        "复古运动",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用全皮革鞋面配压印Swoosh与TPU鞋眼，用料比常规织物款扎实耐造，对得起1138元SP规格。",
+      "visual_note": "全赤陶棕单色系一体感极强，经典AM90厚重鞋型配合可视气垫，复古质感浓郁但略挑裤装颜色。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "12671a6d9165",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Wales Bonner BW Army - Core Black / Gum5",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "adidas x Wales Bonner BW Army silhouette Pony hair and leather upper Padded collar adidas Wales Bonner branding on the tongue Flat cotton laces adidas Trefoil branding on the heel and outsole Leather lining Gum rubber ou",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK2813_b2b012_plp.jpg?v=1793213717",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK2813_b2b062_pdp.jpg?v=1793213716",
+      "url": "https://kith.com/products/aakk2813",
+      "is_shoe": true,
+      "title_cn": "adidas x Wales Bonner BW Army 德训鞋",
+      "score": 8.9,
+      "style_tags": [
+        "老钱静奢",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "马毛与头层光面皮拼接鞋面，搭配全皮内衬与生胶大底，联名规格用料考究，高级质感拉满。",
+      "visual_note": "经典修长德训鞋楦，全黑鞋身借由马毛与皮革形成克制而丰富的材质对比，生胶底点睛，极简百搭。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "081fb63a719b",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon Snowclog OG - Black / Bitter Chocolate / Beach Ball",
+      "price_cny": 836,
+      "price_note": "≈¥836 ($125)",
+      "material_raw": "Snowclog OG silhouette Suede and leather upper Padded collar Salomon logo on the side panel Salomon logo patch on the heel Heel pull Terrain contaGRIP® infiniFOAM midsole Rubber outsole Slip-on style Style: sall49180400 ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_c9e49e75-c3a7-4b4f-a72d-3eef420236d0.jpg?v=1793031841",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_2_9beb4b0f-f579-4024-a900-b0ed765e4b0d.jpg?v=1793031841",
+      "url": "https://kith.com/products/sall49180400",
+      "is_shoe": true,
+      "title_cn": "Salomon Snowclog OG 棕色一脚蹬",
+      "score": 8.4,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "采用麂皮与皮革拼接鞋面，搭配Terrain contaGRIP防滑大底与infiniFOAM中底，用料扎实。",
+      "visual_note": "经典雪地一脚蹬廓形，苦巧克力棕配黑色鞋领沉稳高级，后跟黄标点缀增添山系机能辨识度。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "5a578f40c716",
+      "brand": "UR",
+      "category": "休闲裤装",
+      "title": "Vintage Washed Wide-leg Mid-rise Cotton Jeans",
+      "price_cny": 374,
+      "price_note": "≈¥374 ($55)",
+      "material_raw": "Crafted from medium-weight 100% cotton denim, these relaxed jeans feature a vintage-faded indigo wash that elevates everyday casual wear with effortless character. Their generous wide-leg silhouette drapes naturally over",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV860091L2A_2.jpg?v=1790743322",
+      "model_img": "https://cdn.shopify.com/s/files/1/0504/7644/9942/files/UUV860091L2A_1.jpg?v=1790743322",
+      "url": "https://global.urbanrevivo.com/products/vintage-washed-wide-leg-mid-rise-cotton-jeans-uuv860091",
+      "is_shoe": false,
+      "title_cn": "UR 复古水洗阔腿中腰纯棉牛仔裤",
+      "score": 8.1,
+      "style_tags": [
+        "松弛街头",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "100%纯棉中磅牛仔布料，374元定价能买到全棉水洗丹宁，材质价值比在快时尚中表现优秀。",
+      "visual_note": "复古褪色靛蓝水洗自然，猫须细节到位，宽松阔腿剪裁垂坠感良好，能轻松拉长下身比例。",
+      "shanghai_advice": "可搭配薄针织外套与长裤，适合凉爽微风，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "1d1ce4da009f",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Wales Bonner BW Army - Noble Maroon / Gold Metallic / Wonder White",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "adidas x Wales Bonner BW Army silhouette Pony hair and leather upper Padded collar adidas Wales Bonner branding on the tongue Flat cotton laces adidas Trefoil branding on the heel and outsole Leather lining Gum rubber ou",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK2809_b2b012_plp.jpg?v=1793213715",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK2809_b2b062_pdp.jpg?v=1793213714",
+      "url": "https://kith.com/products/aakk2809",
+      "is_shoe": true,
+      "title_cn": "adidas x Wales Bonner BW Army 德训鞋",
+      "score": 8.8,
+      "style_tags": [
+        "老钱静奢",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "上海适穿"
+      ],
+      "material_note": "精选马毛与头层牛皮拼接鞋面，搭配全皮革内衬与生胶大底，用料考究且质感远超普通德训鞋。",
+      "visual_note": "经典修长德训鞋楦比例，大地金棕与酒红内衬撞色高级克制，兼具复古韵味与静奢百搭属性。",
+      "shanghai_advice": "轻便透气，适合凉爽天气搭配长裤，出行舒适。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "856bbe967da5",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon X-ALP Expedition - Black / Bitter Chocolate / Concord Grape",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "X-ALP Expedition silhouette Suede and canvas upper Padded collar Metal eyelets Rubber toecap S branding on tongue Salomon branding across lateral ankle X-ATP branding at interior ankle Rope laces Heel pull 3D Edging Chas",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_20.jpg?v=1793025957",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_21.jpg?v=1793025957",
+      "url": "https://kith.com/products/sall49177500",
+      "is_shoe": true,
+      "title_cn": "Salomon X-ALP Expedition 户外徒步鞋",
+      "score": 8.4,
+      "style_tags": [
+        "都市机能",
+        "复古运动"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "麂皮与帆布拼接鞋面搭配橡胶防撞鞋头、金属鞋眼扣及3D支撑底盘，整体做工扎实且耐造。",
+      "visual_note": "低帮专业越野轮廓，黑棕与暗紫配色沉稳内敛，黄黑圆鞋带点缀恰到好处，都市机能感拉满。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "43498fce9137",
+      "brand": "Uniqlo",
+      "category": "毛衣针织",
+      "title": "精纺美利奴羊毛圆领拼色针织开衫/长袖",
+      "price_cny": 199,
+      "price_note": "¥199 (官网人民币)",
+      "material_raw": "优衣库官网男装当季款",
+      "cover_img": "https://www.uniqlo.cn/hmall/test/u0000000076667/main/first/561/1.jpg",
+      "model_img": "",
+      "url": "https://www.uniqlo.cn/product-detail.html?productCode=u0000000076667",
+      "is_shoe": false,
+      "title_cn": "优衣库 精纺美利奴羊毛拼色针织开衫",
+      "score": 8.5,
+      "style_tags": [
+        "极简通勤",
+        "质感基础"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "199元即可入手精纺美利奴羊毛材质，触感细腻亲肤且具备良好保暖度，材质性价比极高。",
+      "visual_note": "藏青主色调搭配深灰门襟与下摆拼色，版型利落合身，视觉上干净儒雅，非常适合日常叠穿。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "d7e6d6d95135",
+      "brand": "New Balance",
+      "category": "精选鞋履",
+      "title": "New Balance Made in USA 992 - Medusa Green / Cortado / Thunder Brown",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "Made in USA 992 silhouette Mesh upper Suede and synthetic overlays New Balance branding on the padded tongue Molded 'N' logo on the side panels 992 branding on the ankle Flat cotton laces New Balance USA branding at the ",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u992bb_nb_05_i.jpg?v=1793203632",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/u992bb_nb_02_i.jpg?v=1793203632",
+      "url": "https://kith.com/products/nwbu992bb",
+      "is_shoe": true,
+      "title_cn": "New Balance 992美产复古慢跑鞋",
+      "score": 8.5,
+      "style_tags": [
+        "复古运动",
+        "老钱静奢"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "美产顶级做工，网眼布鞋面搭配优质麂皮与合成革拼接，质感厚实，鞋楦饱满舒适度极高。",
+      "visual_note": "美杜莎绿与可可棕的撞色复古高级，层叠鞋面线条流畅，兼具老钱腔调与日常Clean Fit百搭度。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "9ff1ea723479",
+      "brand": "Adidas",
+      "category": "精选鞋履",
+      "title": "adidas x Wales Bonner Karintha Croc - Dark Brown / Core Black / Gold Metallic",
+      "price_cny": 1472,
+      "price_note": "≈¥1472 ($220)",
+      "material_raw": "adidas x Wales Bonner Karintha Croc silhouette Croc-embossed leather upper Textile lining Padded collar Gold eyelets Co-branded tongue Rope laces Tri-Stripes at lateral and medial sides Gold foil embossing on heel with s",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK0733_b2b012_plp.jpg?v=1793213716",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/KK0733_b2b022_pdp.jpg?v=1793213716",
+      "url": "https://kith.com/products/aakk0733",
+      "is_shoe": true,
+      "title_cn": "Adidas x Wales Bonner 联名德训鞋",
+      "score": 8.4,
+      "style_tags": [
+        "老钱静奢",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "上海适穿"
+      ],
+      "material_note": "采用奢华的压纹鳄鱼皮皮革鞋面，内衬舒适织物，金色鞋带孔与鞋跟刺绣细节彰显高级工艺。",
+      "visual_note": "纤薄修长的经典德训鞋型，深棕色压纹散发内敛奢华感，完美契合当下流行的高级复古风潮。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "e3452a0fff58",
+      "brand": "Salomon",
+      "category": "精选鞋履",
+      "title": "Salomon XT-6 GORE-TEX - Tradewinds / Stormy Weather / Bog",
+      "price_cny": 1338,
+      "price_note": "≈¥1338 ($200)",
+      "material_raw": "XT-6 GORE-TEX silhouette Synthetic and textile upper GORE-TEX equipped XT Quest patch on the tongue Rope laces Webbed lacing system Salomon branding on the heel TPU heel wrap Rubber outsole Style: sall49214800 Color: Tra",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_1a652075-db9f-49f5-8606-365dd28d36ef.jpg?v=1792671448",
+      "model_img": "https://cdn.shopify.com/s/files/1/0094/2252/files/PNG-2000px-max-72dpi_2_10f0de2a-cb93-42d2-8ff8-9d1720a32a1a.jpg?v=1792671448",
+      "url": "https://kith.com/products/sall49214800",
+      "is_shoe": true,
+      "title_cn": "Salomon XT-6 GORE-TEX 户外跑鞋",
+      "score": 8.7,
+      "style_tags": [
+        "都市机能",
+        "松弛街头"
+      ],
+      "metric_tags": [
+        "防水耐造",
+        "上海适穿"
+      ],
+      "material_note": "搭载GORE-TEX防水薄膜与高强度织物合成鞋面，配合AGILE Chassis底盘系统，机能属性拉满。",
+      "visual_note": "经典户外鞋型结构复杂富有层次，冷色调灰蓝色系极具现代都市机能感，辨识度与搭配度兼备。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-3.5-flash-lite",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    },
+    {
+      "id": "5fa2c6ec9cd1",
+      "brand": "MUJI",
+      "category": "休闲裤装",
+      "title": "Corduroy Easy Pants",
+      "price_cny": 334,
+      "price_note": "≈¥334 ($49)",
+      "material_raw": "Corduroy easy pants made from soft, brushed organic cotton. Easy and relaxed fit for all day comfort. The hidden drawstring on the inner waist allows for an adjustable fit while keeping a clean outer appearance. Item Siz",
+      "cover_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315568581_07_org.jpg?v=1772558233",
+      "model_img": "https://cdn.shopify.com/s/files/1/0556/8066/3742/files/4547315568581_01_org_81cea719-c2a1-435f-afee-b1bbda715484.jpg?v=1772558233",
+      "url": "https://www.muji.us/products/corduroy-easy-pants-ae10a25a",
+      "is_shoe": false,
+      "title_cn": "无印良品有机棉灯芯绒休闲裤",
+      "score": 8.2,
+      "style_tags": [
+        "质感基础",
+        "极简通勤"
+      ],
+      "metric_tags": [
+        "天然面料",
+        "高性价比",
+        "上海适穿"
+      ],
+      "material_note": "100%有机棉拉绒灯芯绒，天然材质触感柔软且保暖性佳，334元定价与用料匹配度高，质感扎实。",
+      "visual_note": "深藏青色复古耐看，微宽松直筒版型修饰腿型，内藏式抽绳保持腰部整洁，日常Clean Fit极佳。",
+      "shanghai_advice": "建议采用外套+针织开衫+灯芯绒裤，配防水徒步鞋，层次分明保暖。",
+      "ai_model": "gemini-4-hydrogen",
+      "added_at": "2026-11-20 15:05 (UTC+8)"
+    }
+  ]
+}
