@@ -100,8 +100,12 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
                                 sample_img = p["images"][0].get("src")
                         parsed_info = f"商品数={len(prods)}, 品牌={dict(list(vendors.items())[:5])}"
                     elif "collections" in data and isinstance(data["collections"], list):
-                        handles = [c.get("handle") for c in data["collections"] if "men" in str(c.get("handle", "")).lower()]
-                        parsed_info = f"总集合={len(data['collections'])}, 男装集合handles={handles[:8]}"
+                        handles = [
+                            c.get("handle")
+                            for c in data["collections"]
+                            if any(k in str(c.get("handle", "")).lower() for k in ("men", "apparel", "wear", "cloth"))
+                        ]
+                        parsed_info = f"总集合={len(data['collections'])}, 男装相关={handles[:8]}"
                     elif "objects" in data and isinstance(data["objects"], list):
                         parsed_info = f"Nike objects={len(data['objects'])}"
                     elif "results" in data and isinstance(data["results"], list):
@@ -268,7 +272,7 @@ def probe_groq_models() -> list[dict]:
 
 
 def main():
-    log(f"=== 开始二轮精准探针 | {NOW_STR} ===")
+    log(f"=== 开始二轮精准探针 (含MUJI) | {NOW_STR} ===")
     weather = probe_shanghai_weather()
 
     brand_checks = []
@@ -282,7 +286,7 @@ def main():
         test_http_get("Massimo Dutti CN (首页探测)", "https://www.massimodutti.cn/cn/", is_json=False),
     ])
 
-    # 3. COS HK API探测 (H&M集团搜索接口)
+    # 3. COS HK API探测
     brand_checks.extend([
         test_http_get("COS HK (男装列表JSON)", "https://www.cos.com/en-hk/men/view-all/_jcr_content/pageContent/productlisting.products.json"),
         test_http_get("COS HK (官网连通)", "https://www.cos.com/en-hk/men/view-all.html", is_json=False),
@@ -294,7 +298,15 @@ def main():
         test_http_get("UR Global (全站商品)", "https://global.urbanrevivo.com/products.json?limit=25"),
     ])
 
-    # 5. 鞋履 (Nike新接口 + Salomon + 买手店多品牌通道)
+    # 5. MUJI 无印良品 (中国/香港/美国Shopify JSON)
+    brand_checks.extend([
+        test_http_get("MUJI CN (官网连通)", "https://www.muji.com.cn/", is_json=False),
+        test_http_get("MUJI HK (网店连通)", "https://onlineshop.muji.com.hk/", is_json=False),
+        test_http_get("MUJI US (Shopify集合)", "https://www.muji.us/collections.json?limit=100"),
+        test_http_get("MUJI US (Shopify商品)", "https://www.muji.us/products.json?limit=25"),
+    ])
+
+    # 6. 鞋履 (Nike新接口 + Salomon + 买手店多品牌通道)
     brand_checks.extend([
         test_http_get(
             "Nike CN (新版Product Wall)",
@@ -316,7 +328,7 @@ def main():
     groq_checks = probe_groq_models()
 
     lines = [
-        f"## 🧭 Shanghai Menswear & Sneaker 二轮探针报告",
+        f"## 🧭 Shanghai Menswear & Sneaker 二轮探针报告 (含MUJI)",
         f"- **测试时间:** `{NOW_STR}`",
         f"- **上海天气 (Open-Meteo):** `{weather['summary']}`",
         f"- **视觉测试图源:** `{img_source}`",
