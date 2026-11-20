@@ -1,6 +1,6 @@
 import os
 import io
-import json
+import re
 import time
 import base64
 from datetime import datetime, timezone, timedelta
@@ -31,6 +31,14 @@ GROQ_TEXT_MODELS = [
 
 def log(msg: str):
     print(msg, flush=True)
+
+
+def clean_md(text: str) -> str:
+    """防止HTML标签或Markdown符号破坏GitHub Summary表格渲染"""
+    s = re.sub(r"<[^>]*>", " ", str(text))
+    s = s.replace("<", "&lt;").replace(">", "&gt;")
+    s = s.replace("|", "/").replace("\n", " ").replace("\r", " ")
+    return re.sub(r"\s+", " ", s).strip()[:130]
 
 
 def probe_shanghai_weather() -> dict:
@@ -74,7 +82,6 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
             impersonate="chrome",
             timeout=20,
         )
-        snippet = r.text[:180].replace("\n", " ")
         parsed_info = ""
         sample_img = None
         if r.status_code == 200 and is_json:
@@ -83,7 +90,6 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
                 if isinstance(data, dict):
                     keys = list(data.keys())[:6]
                     parsed_info = f"JSON keys={keys}"
-                    # 解析 Shopify 样式产品统计
                     if "products" in data and isinstance(data["products"], list):
                         prods = data["products"]
                         vendors = {}
@@ -92,7 +98,14 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
                             vendors[v] = vendors.get(v, 0) + 1
                             if not sample_img and p.get("images"):
                                 sample_img = p["images"][0].get("src")
-                        parsed_info = f"商品数={len(prods)}, 品牌分布={dict(list(vendors.items())[:5])}"
+                        parsed_info = f"商品数={len(prods)}, 品牌={dict(list(vendors.items())[:5])}"
+                    elif "collections" in data and isinstance(data["collections"], list):
+                        handles = [c.get("handle") for c in data["collections"] if "men" in str(c.get("handle", "")).lower()]
+                        parsed_info = f"总集合={len(data['collections'])}, 男装集合handles={handles[:8]}"
+                    elif "objects" in data and isinstance(data["objects"], list):
+                        parsed_info = f"Nike objects={len(data['objects'])}"
+                    elif "results" in data and isinstance(data["results"], list):
+                        parsed_info = f"results={len(data['results'])}"
                 elif isinstance(data, list):
                     parsed_info = f"JSON list len={len(data)}"
             except Exception as je:
@@ -100,69 +113,56 @@ def test_http_get(name: str, url: str, headers=None, params=None, is_json=True):
         return {
             "name": name,
             "status": r.status_code,
-            "info": parsed_info or snippet[:100],
+            "info": clean_md(parsed_info or r.text[:140]),
             "sample_img": sample_img,
         }
     except Exception as e:
-        return {"name": name, "status": "ERR", "info": str(e)[:120], "sample_img": None}
+        return {"name": name, "status": "ERR", "info": clean_md(str(e)), "sample_img": None}
 
 
-def test_uniqlo_cn():
-    url = "https://www.uniqlo.cn/hmall-sc-service/search/searchWithDescriptionAndConditions/zh_CN"
-    headers = {
-        "Content-Type": "application/json",
-        "Origin": "https://www.uniqlo.cn",
-        "Referer": "https://www.uniqlo.cn/c/10101.html",
-    }
+def test_uniqlo_cn_v2():
+    """测试优衣库中国新接口与官网静态JSON"""
+    urls = [
+        ("Uniqlo CN (d.uniqlo新搜索)", "https://d.uniqlo.cn/p/hmall-sc-service/search/searchWithDescriptionAndConditions/zh_CN", "POST"),
+        ("Uniqlo CN (页面数据JSON)", "https://www.uniqlo.cn/data/pages/men.html.json", "GET"),
+        ("Uniqlo HK (备选搜索API)", "https://www.uniqlo.com.hk/hmall-sc-service/search/searchWithDescriptionAndConditions/zh_HK", "POST"),
+    ]
+    out = []
     payload = {
         "url": "/c/10101.html",
         "pageInfo": {"page": 1, "pageSize": 5, "withSideBar": "Y"},
         "belongTo": "pc",
         "rank": "overall",
         "priceRange": {"low": 0, "high": 0},
-        "color": [],
-        "size": [],
-        "season": [],
-        "material": [],
-        "sex": [],
-        "identity": [],
-        "insiteDescription": "",
-        "exist": [],
-        "searchFlag": False,
-        "description": "",
+        "color": [], "size": [], "season": [], "material": [], "sex": [], "identity": [],
+        "insiteDescription": "", "exist": [], "searchFlag": False, "description": "",
     }
-    try:
-        r = cffi_requests.post(
-            url, json=payload, headers=headers, impersonate="chrome", timeout=20
-        )
-        info = r.text[:100].replace("\n", " ")
-        sample_img = None
-        if r.status_code == 200:
-            data = r.json()
-            resp = data.get("resp", [])
-            if resp and isinstance(resp, list) and len(resp) > 1:
-                items = resp[1] if isinstance(resp[1], list) else []
-                info = f"成功拉取男装商品={len(items)}"
-                if items and isinstance(items[0], dict):
-                    pic = items[0].get("mainPic", "")
-                    if pic:
-                        sample_img = (
-                            f"https://www.uniqlo.cn{pic}"
-                            if pic.startswith("/")
-                            else pic
-                        )
-        return {
-            "name": "Uniqlo CN (男装API)",
-            "status": r.status_code,
-            "info": info,
-            "sample_img": sample_img,
-        }
-    except Exception as e:
-        return {"name": "Uniqlo CN (男装API)", "status": "ERR", "info": str(e)[:120], "sample_img": None}
+    for name, url, method in urls:
+        try:
+            if method == "POST":
+                r = cffi_requests.post(
+                    url,
+                    json=payload,
+                    headers={"Content-Type": "application/json"},
+                    impersonate="chrome",
+                    timeout=18,
+                )
+            else:
+                r = cffi_requests.get(url, impersonate="chrome", timeout=18)
+            info = clean_md(r.text[:140])
+            if r.status_code == 200:
+                try:
+                    j = r.json()
+                    info = f"JSON keys={list(j.keys())[:6]}"
+                except Exception:
+                    pass
+            out.append({"name": name, "status": r.status_code, "info": info, "sample_img": None})
+        except Exception as e:
+            out.append({"name": name, "status": "ERR", "info": clean_md(str(e)), "sample_img": None})
+    return out
 
 
 def make_test_image_b64(img_url: str | None) -> tuple[str, str]:
-    """优先下载探针抓到的真实商品图缩略图；失败则在内存中生成测试图"""
     if img_url:
         try:
             r = cffi_requests.get(img_url, impersonate="chrome", timeout=15)
@@ -220,12 +220,12 @@ def probe_vision_models(img_b64: str) -> list[dict]:
             r = requests.post(GEMINI_ENDPOINT, headers=headers, json=payload, timeout=45)
             cost = round(time.time() - t0, 2)
             if r.status_code == 200:
-                content = r.json()["choices"][0]["message"]["content"].replace("\n", " ")
-                results.append({"model": m, "status": f"200 ({cost}s)", "info": content[:120]})
+                content = r.json()["choices"][0]["message"]["content"]
+                results.append({"model": m, "status": f"200 ({cost}s)", "info": clean_md(content)})
             else:
-                results.append({"model": m, "status": r.status_code, "info": r.text[:140]})
+                results.append({"model": m, "status": r.status_code, "info": clean_md(r.text)})
         except Exception as e:
-            results.append({"model": m, "status": "ERR", "info": str(e)[:120]})
+            results.append({"model": m, "status": "ERR", "info": clean_md(str(e))})
         time.sleep(2.5)
     return results
 
@@ -257,62 +257,66 @@ def probe_groq_models() -> list[dict]:
             r = requests.post(GROQ_ENDPOINT, headers=headers, json=payload, timeout=30)
             cost = round(time.time() - t0, 2)
             if r.status_code == 200:
-                content = r.json()["choices"][0]["message"]["content"].replace("\n", " ")
-                results.append({"model": m, "status": f"200 ({cost}s)", "info": content[:120]})
+                content = r.json()["choices"][0]["message"]["content"]
+                results.append({"model": m, "status": f"200 ({cost}s)", "info": clean_md(content)})
             else:
-                results.append({"model": m, "status": r.status_code, "info": r.text[:140]})
+                results.append({"model": m, "status": r.status_code, "info": clean_md(r.text)})
         except Exception as e:
-            results.append({"model": m, "status": "ERR", "info": str(e)[:120]})
+            results.append({"model": m, "status": "ERR", "info": clean_md(str(e))})
         time.sleep(1.5)
     return results
 
 
 def main():
-    log(f"=== 开始探针测试 | {NOW_STR} ===")
+    log(f"=== 开始二轮精准探针 | {NOW_STR} ===")
     weather = probe_shanghai_weather()
-    log(f"[上海天气] {weather}")
 
-    brand_checks = [
-        # 服装品牌（5家：Uniqlo / Zara / Massimo Dutti / COS / UR）
-        test_uniqlo_cn(),
+    brand_checks = []
+    # 1. 优衣库多接口
+    brand_checks.extend(test_uniqlo_cn_v2())
+
+    # 2. Zara & Massimo Dutti (Inditex架构验证)
+    brand_checks.extend([
         test_http_get("Zara CN (类目JSON)", "https://www.zara.cn/cn/zh/categories?ajax=true"),
-        test_http_get("Zara HK (备选JSON)", "https://www.zara.com/hk/zh/categories?ajax=true"),
-        test_http_get("Massimo Dutti CN (类目JSON)", "https://www.massimodutti.cn/cn/zh/categories?ajax=true"),
-        test_http_get("Massimo Dutti HK (备选JSON)", "https://www.massimodutti.com/hk/zh/categories?ajax=true"),
-        test_http_get("COS CN (首页连通)", "https://www.cos.cn/", is_json=False),
-        test_http_get("COS HK (男装页)", "https://www.cos.com/en-hk/men/view-all.html", is_json=False),
-        test_http_get("UR CN (官网连通)", "https://www.ur.cn/", is_json=False),
-        test_http_get("UR Global (全站JSON)", "https://global.urbanrevivo.com/products.json?limit=25"),
-        test_http_get("UR Global (男装JSON)", "https://global.urbanrevivo.com/collections/men/products.json?limit=25"),
+        test_http_get("Massimo Dutti (itxrest类目)", "https://www.massimodutti.com/itxrest/2/catalog/store/34009450/30359503/category?languageId=-7&typeCatalog=1&appId=1"),
+        test_http_get("Massimo Dutti CN (首页探测)", "https://www.massimodutti.cn/cn/", is_json=False),
+    ])
 
-        # 鞋履品牌（4家：Nike / Adidas / New Balance / Salomon + 买手店兜底）
+    # 3. COS HK API探测 (H&M集团搜索接口)
+    brand_checks.extend([
+        test_http_get("COS HK (男装列表JSON)", "https://www.cos.com/en-hk/men/view-all/_jcr_content/pageContent/productlisting.products.json"),
+        test_http_get("COS HK (官网连通)", "https://www.cos.com/en-hk/men/view-all.html", is_json=False),
+    ])
+
+    # 4. UR (查找男装真实集合 handle + 官网)
+    brand_checks.extend([
+        test_http_get("UR Global (全集合列表)", "https://global.urbanrevivo.com/collections.json?limit=100"),
+        test_http_get("UR Global (全站商品)", "https://global.urbanrevivo.com/products.json?limit=25"),
+    ])
+
+    # 5. 鞋履 (Nike新接口 + Salomon + 买手店多品牌通道)
+    brand_checks.extend([
         test_http_get(
-            "Nike CN (Browse API)",
-            "https://api.nike.com/cic/browse/v2",
-            params={
-                "queryid": "products",
-                "country": "cn",
-                "endpoint": "/product_feed/rollup_threads/v2?filter=marketplace(CN)&filter=language(zh-Hans)&filter=attributeIds(0f64ecc7-d624-4e91-b171-b83a03dd8550,16633190-45e5-4830-a068-232ac7aea82c)&anchor=0&count=5",
-            },
+            "Nike CN (新版Product Wall)",
+            "https://api.nike.com/discover/product_wall/v1/marketplace/CN/language/zh-Hans/consumerChannelId/d9a5bc42-4b9c-4976-858a-f159cf99c647",
+            params={"path": "/cn/w/mens-shoes-nik1zy7ok", "attributeIds": "0f64ecc7-d624-4e91-b171-b83a03dd8550,16633190-45e5-4830-a068-232ac7aea82c", "queryType": "PRODUCTS", "anchor": 0, "count": 10},
+            headers={"nike-api-caller-id": "nike:dotcom:browse:wall.client:2.0"},
         ),
-        test_http_get("Adidas CN (首页连通)", "https://www.adidas.com.cn/", is_json=False),
-        test_http_get("New Balance CN (首页连通)", "https://www.newbalance.com.cn/", is_json=False),
         test_http_get("Salomon CN (首页连通)", "https://www.salomon.com.cn/", is_json=False),
+        test_http_get("Salomon US (鞋履连通)", "https://www.salomon.com/en-us/c/men/shoes", is_json=False),
         test_http_get("买手店 KITH (鞋履JSON)", "https://kith.com/collections/mens-footwear/products.json?limit=25"),
         test_http_get("买手店 Feature (鞋履JSON)", "https://feature.com/collections/footwear/products.json?limit=25"),
         test_http_get("买手店 ExtraButter (鞋履JSON)", "https://extrabutterny.com/collections/footwear/products.json?limit=25"),
-    ]
+    ])
 
     sample_img_url = next((x["sample_img"] for x in brand_checks if x.get("sample_img")), None)
     img_b64, img_source = make_test_image_b64(sample_img_url)
-    log(f"[测试图片源] {img_source}")
 
     vision_checks = probe_vision_models(img_b64)
     groq_checks = probe_groq_models()
 
-    # 拼装 Markdown 报告并写入 GitHub Step Summary
     lines = [
-        f"## 🧭 Shanghai Menswear & Sneaker 探针报告",
+        f"## 🧭 Shanghai Menswear & Sneaker 二轮探针报告",
         f"- **测试时间:** `{NOW_STR}`",
         f"- **上海天气 (Open-Meteo):** `{weather['summary']}`",
         f"- **视觉测试图源:** `{img_source}`",
@@ -322,8 +326,7 @@ def main():
         "| :--- | :--- | :--- |",
     ]
     for b in brand_checks:
-        safe_info = str(b["info"]).replace("|", "/").replace("\n", " ")
-        lines.append(f"| {b['name']} | `{b['status']}` | {safe_info} |")
+        lines.append(f"| {b['name']} | `{b['status']}` | {b['info']} |")
 
     lines += [
         "",
@@ -332,8 +335,7 @@ def main():
         "| :--- | :--- | :--- |",
     ]
     for v in vision_checks:
-        safe_info = str(v["info"]).replace("|", "/").replace("\n", " ")
-        lines.append(f"| `{v['model']}` | `{v['status']}` | {safe_info} |")
+        lines.append(f"| `{v['model']}` | `{v['status']}` | {v['info']} |")
 
     lines += [
         "",
@@ -342,8 +344,7 @@ def main():
         "| :--- | :--- | :--- |",
     ]
     for g in groq_checks:
-        safe_info = str(g["info"]).replace("|", "/").replace("\n", " ")
-        lines.append(f"| `{g['model']}` | `{g['status']}` | {safe_info} |")
+        lines.append(f"| `{g['model']}` | `{g['status']}` | {g['info']} |")
 
     report_md = "\n".join(lines)
     log("\n" + report_md)
